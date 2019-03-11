@@ -1,0 +1,37 @@
+%%%% Catálogo de reglas de negocio del negocio %%%%
+
+\pagebreak
+\section{Reglas de negocio del negocio}
+
+	%Regla del negocio
+	\hypertarget{RN:N1:FechaValidaRS}{}
+	\subsection{RN-N1 Fecha válida para registro de solicitantes}
+
+		\begin{itemize}
+
+			\item \textit{Tipo:} Restricción
+
+			\item \textit{Descripción:} Un solicitante no podrá obtener una cuenta de usuario en el sistema, si la fecha en que lo solicita no se encuentra dentro del periodo de registro de solicitantes, es decir, debe de cumplirse que:\\
+
+			\begin{center}
+				$F_{IPR} \leq F_{SR} \leq F_{FPR} $
+			\end{center}
+
+			Donde:
+
+			\begin{itemize}
+
+				\item $F_{IPR}$: Fecha de Inicio de Periodo de Registro de solicitantes en el sistema
+
+				\item $F_{SR}$: Fecha de Solicitud de Registro del solicitante
+
+				\item $F_{FPR}$: Fecha de Fin de Periodo de Registro de solicitantes en el sistema
+
+			\end{itemize} 
+
+			\item \textit{Ejemplo:} Suponga que en el sistema $F_{IPR} =$ 12/marzo/2019 y $F_{FPR} =$ 25/marzo/2019. Si el solicitante intenta obtener una cuenta de usuario con $F_{S R}$ = 18/marzo/2019, el sistema debe permitirle obtener su cuenta de usuario. Si el solicitante intenta obtener una cuenta de usuario con $F_{SR}$ = 26/marzo/2019, el sistema no debe permitirle obtener su cuenta de usuario
+
+			\item \textit{Referenciado por:} \hyperlink{CU1}{CU1 Iniciar sesión}
+
+		\end{itemize}
+

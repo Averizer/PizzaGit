@@ -1,0 +1,254 @@
+%%%% Caso de uso %%%%
+
+\pagebreak
+\hypertarget{CU1}{}
+\section{CU1 Visualizar menú de pizzas}
+
+	%Resumen
+	\noindent \textbf{Resumen}\\
+
+		Para que el pizza costumer pueda acceder al módulo de visualización del menú, deberá ingresar desde su navegador al dominio {\textbf{www.pizzaplaneta.com.mx}} y de esta manera poder visualizar la pantalla principal del sistema.
+
+	%Atributos
+	\noindent \textbf{\\Atributos}
+
+		\begin{itemize}
+
+			\item \textit{Actor(es):} \hyperlink{A:Pizza Costumer}{Pizza Costumer}
+			\item \textit{Precondiciones:} Que el \hyperlink{A:Pizza Costumer}{Pizza Costumer} tenga acceso a internet. 
+			\item \textit{Postcondiciones:} El \hyperlink{A:Pizza Costumer}{Pizza Costumer} podrá ingresar al sistema para realizar las actividades que su rol le permite.
+			\item \textit{Ciclos de vida:} ??
+			\item \textit{Reglas de negocio:} ??
+			\item \textit{Mensajes:} ??
+			\item \textit{Viene de:} No aplica
+
+		\end{itemize} 
+
+	%Trayectoria principal
+	\noindent \textbf{Trayectoria principal}
+
+		\begin{enumerate}
+			\item {\textbf{Actor.}} Ingresa la dirección electrónica de la pizzería en su navegador.
+			\item \textbf{Sistema.} Muestra la pantalla \textbf{IU1 Inicio} descrita en \hyperlink{IU1}{IU1 Inicio}.
+			\item \textbf{Actor.} Selecciona una de las opciones que se encuentran en la pantalla.\hyperlink{CU1:TAA}{Trayectoria alternativa A}
+			\item \hypertarget{CU1:TP:P4}{\textbf{Sistema.}} Muestra la pantalla  \textbf{IU3 Elige el tamaño y tipo de masa} descrita en \hyperlink{IU3}{IU3 Tamaño y masa}
+			\item \textbf{Actor.} Selecciona el tamaño y la masa que desea.
+			\item  \hypertarget{CU1:TP:P6}{\textbf{Actor.}} Da click en el botón \textbf{Agregar}.
+			\item \textbf{Sistema.} Muestra la pantalla  \textbf{IU4 Agregar otra} descrita en \hyperlink{IU4}{IU4 Agregar otra}
+			\item \textbf{Actor.} Selecciona el botón \textbf{Si, seguir comprando}.\hyperlink{CU1:TAB}{Trayectoria alternativa B}
+			\item \hypertarget{CU1:TP:P9} {\textbf{Sistema.}} Muestra la pantalla \textbf{IU2 Menú} descrita en \hyperlink{IU2}{IU2 Menú}
+			\item \textbf{Actor.} Elige una de las opciones que se muestran.
+			\item \textbf{Actor.} Selecciona el botón \textbf{Seleccionar}. 
+			\item \textbf{Sistema.} Regresa al punto \hyperlink{CU1:TP:P4}{4} de la trayectoria pincipal.
+		\end{enumerate}
+			
+		Fin de la trayectoria principal
+
+	%Trayectorias alternativas
+	\noindent \textbf{\\Trayectorias alternativas}
+
+	\begin{itemize}
+
+		%Trayectoria alternativa
+		\item \hypertarget{CU1:TAA}{Trayectoria alternativa A}
+
+			\noindent \textbf{Condición:} El actor no seleccionó una de las opciones mostradas en la pantalla \textbf{IU1 Inicio}.
+			
+			\begin{enumerate}
+				\item \textbf{Actor.} Da click en el botón \textbf{Menú}.
+				\item \textbf{Sistema.} Regresa al paso \hyperlink{CU1:TP:P9}{9} de la trayectoria principal
+			\end{enumerate}
+			
+			Fin de la trayectoria alternativa
+			
+		%Trayectoria alternativa
+		\item \hypertarget{CU1:TAB}{Trayectoria alternativa B}
+			
+			\noindent \textbf{Condición:} El actor no desea seguir seguir comprando.
+			
+			\begin{enumerate}
+				\item \textbf{Actor.} Selecciona el botón \textbf{No, proceder a pagar}. 
+				\item \textbf{Sistema.} Muestra pantalla \textbf{IU5 Lugar}. \hyperlink{IU5}{IU5 Lugar}
+				\item \textbf{Actor.} Selecciona el botón \textbf{En tienda}.\hyperlink{CU1:TAC}{Trayectoria alternativa C}
+				\item \hypertarget{CU1:TAB:P4} {\textbf{Sistema.}} Muestra la pantalla \textbf{IU7 Datos} descrita en \hyperlink{IU7}{IU7 Datos}.
+				\item \hypertarget{CU1:TAB:P5}{\textbf{Actor.}} Ingresa los datos solicitados por el sistema.
+				\item \textbf{Actor.} Selecciona el botón \textbf{Agregar datos}.
+				\item \textbf{Sistema.} Verifica la regla de negocio \textbf{RN:S1:InfoRequerida} descrita en \hyperlink{RN:S1:InfoRequerida}{RN-S1 Información requerida}.
+				\item \textbf{Sistema.} En caso de faltar algún dato, muestra el mensaje \textbf{MSG1 Campos obligatorios faltantes}.\hyperlink{MSG1:CamposObligatorios}{MSG1 Campos obligatorios faltantes}
+				\item \textbf{Sistema.} Regresa al paso \hyperlink{CU1:TAB:P5}{5} de la trayectoria alternativa B.\hyperlink{CU1:TAD}{Trayectoria alternativa D} 
+				
+			\end{enumerate}
+			
+			Fin de la trayectoria alternativa
+			
+		%Trayectoria alternativa
+		\item \hypertarget{CU1:TAC}{Trayectoria alternativa C}
+		
+		\noindent \textbf{Condición:} El actor desea que la pizza sea entregada en su domicilio.
+		
+		\begin{enumerate}
+			
+			\item \textbf{Actor.} Selecciona el botón
+			\textbf{Domicilio}. 
+			\item  \textbf{Sistema.} Muestra la pantalla \textbf{IU6 Domicilio} descrita en \hyperlink{IU6}{IU6 Domicilio}.
+			\item \hypertarget{CU1:TAC:P2}{\textbf{Actor.}} Ingresa los datos solicitados por el sistema.
+			\item \textbf{Actor.} Selecciona el botón \textbf{Agregar dirección}.
+			\item \textbf{Sistema.} Verifica la regla de negocio \textbf{RN:S1:InfoRequerida} descrita en \hyperlink{RN:S1:InfoRequerida}{RN-S1 Información requerida}.
+			\item \textbf{Sistema.} En caso de faltar algún dato, muestra el mensaje \textbf{MSG1 Campos obligatorios faltantes}.\hyperlink{MSG1:CamposObligatorios}{MSG1 Campos obligatorios faltantes}
+			\item \textbf{Sistema.} Regresa al paso \hyperlink{CU1:TAC:P2}{2} de la trayectoria alternativa C.\hyperlink{CU1:TAE}{Trayectoria alternativa E}
+		\end{enumerate}
+		
+		Fin de la trayectoria alternativa
+		
+		
+			%Trayectoria alternativa
+		\item \hypertarget{CU1:TAD}{Trayectoria alternativa D}
+		
+		\noindent \textbf{Condición:} No falta ningún dato obigatorio.
+		
+		\begin{enumerate}
+			
+			\item \textbf{Sistema.} Muestra la pantalla \textbf{IU8 Pago} descrita en \hyperlink{IU8}{IU8 Pago}.
+			\item \textbf{Actor.} Selecciona la opción \textbf{Tarjeta de débito o crédito}.\hyperlink{CU1:TAE}{Trayectoria alternativa F}
+			\item \hypertarget{CU1:TAD:P3}{\textbf{Actor.}} Selecciona el botón \textbf{Agregar método}.
+			\item \textbf{Sistema.} Muestra la pantalla \textbf{IU9 Orden} descrita en \hyperlink{IU9}{IU9 Orden} y muestra el \textbf{MSG2 Orden generada correctamente}.\hyperlink{MSG2:OrdenCorrecta}{MSG2 Orden generada correctamente}
+			\item \textbf{Actor.} Selecciona el botón \textbf{Descargar comprobante}.
+			\item \textbf{Sistema.} Muestra la pantalla \textbf{IU10 Comprobante} descrita en \hyperlink{IU10}{IU10 Comprobante}.
+			
+		\end{enumerate}
+		
+		Fin de la trayectoria alternativa
+		
+			%Trayectoria alternativa
+		\item \hypertarget{CU1:TAE}{Trayectoria alternativa E}
+		
+		\noindent \textbf{Condición:} No falta ningún dato obligatorio.
+		
+		\begin{enumerate}
+			
+			\item \textbf{Sistema.} Regresa al paso \hyperlink{CU1:TAB:P4}{4} de la trayectoria alternativa B.
+			
+		\end{enumerate}
+		
+		Fin de la trayectoria alternativa
+		
+			%Trayectoria alternativa
+		\item \hypertarget{CU1:TAF}{Trayectoria alternativa F}
+		
+		\noindent \textbf{Condición:} El cliente desea pagar en efectivo.
+		
+		\begin{enumerate}
+			
+			\item \textbf{Sistema.} Regresa al paso \hyperlink{CU1:TAD:P3}{3} de la trayectoria alternativa D.
+			
+		\end{enumerate}
+		
+		Fin de la trayectoria alternativa
+
+	\end{itemize}
+
+	%Puntos de extención
+	\noindent \textbf{\\Puntos de extensión}\\
+
+		%Punto de extención
+		\noindent \textit{Causa de la extensión:} El actor quiere agregar una pizza al carrito.\\
+		\textit{Región de la trayectoria:} Paso \hyperlink{CU1:TP:P6}{6} de la trayectoria principal.\\
+		\textit{Extiende a:} \hyperlink{CU1.1}{CU1.1 Agregar pizza al carrito}\\
+		
+		%Punto de extención
+		\noindent \textit{Causa de la extensión:} El actor debe ingresar sus datos al sistema.\\
+		\textit{Región de la trayectoria:} Paso \hyperlink{CU1:TAB:P4}{4} de la trayectoria alternativa B.\\
+		\textit{Extiende a:} \hyperlink{CU2.1}{CU2.1 Ingresar datos del cliente}\\
+
+		
+\section{CU4 Seleccionar tipo de entrega}
+
+%Resumen
+\noindent \textbf{Resumen}\\
+
+Para acceder al caso de uso ingresar datos, es necesario que usuario haya seleccionado una pizza y haya dado click al botón de proceder a pagar. En este caso de uso se toma la decisión de entrega a domicilio o recoger en sucursal.
+
+%Atributos
+\noindent \textbf{\\Atributos}
+
+\begin{itemize}
+	
+	\item \textit{Actor(es):} \hyperlink{A:Pizza Costumer}{Pizza Costumer}
+	\item \textit{Precondiciones:} Que el \hyperlink{A:Pizza Costumer}{Pizza Costumer} haya terminado de seleccionar lo que va a consumir y prosiga con la forma de pago. 
+	\item \textit{Postcondiciones:} El \hyperlink{A:Pizza Costumer}{Pizza Costumer} podrá Seleccionar la forma de pago.
+	\item \textit{Ciclos de vida:} ??
+	\item \textit{Reglas de negocio:} ??
+	\item \textit{Mensajes:} ??
+	\item \textit{Viene de:} ??
+	
+\end{itemize} 
+
+%Trayectoria principal
+\noindent \textbf{Trayectoria principal}
+
+\begin{enumerate}
+	\item {\textbf{Actor.}} El usuario da click en el botón ``En tienda". \hypertarget{CU4:TAB}{Trayectoria alternativa A.}\newline
+	El usuario da click en el botón ``Domicilio". \hypertarget{CU4:TAB}{Trayectoria alternativa B.} 
+	\item \textbf{Sistema.} Muestra la pantalla \textbf{IU4 Ingesar datos personales} trayectoria alternativa A o bien \textbf{IU3 Ingesar dirección} trayectoria alternativa B.
+	\item \textbf{Actor.} Ingresa los datos requeridos, si no son validos pasa a trayectoria alternativa C.
+	\item \hypertarget{CU1:TP:P4}{\textbf{Sistema.}} Muestra la pantalla  \textbf{IU5 Selecciona la forma de pago}.
+	
+\end{enumerate}
+
+Fin de la trayectoria principal
+
+%Trayectorias alternativas
+\noindent \textbf{\\Trayectorias alternativas}
+
+\begin{itemize}
+	
+	%Trayectoria alternativa
+	\item \hypertarget{CU4:TAA}{Trayectoria alternativa A}
+	
+	\noindent \textbf{Condición:} El actor dió click en el botón de Recoger en tienda en \textbf{IU2 Seleccionar donde recibir}.
+	
+	\begin{enumerate}
+		\item \textbf{Sistema.} Muestra \textbf{IU3 Datos personales}.
+		\item \textbf{Actor.} Ingresa datos personales y da click en metodo de pago.
+		\item \textbf{Sistema.} Muestra \textbf{IU5 Forma de pago}.
+	\end{enumerate}
+	
+	Fin de la trayectoria alternativa
+	
+	%Trayectoria alternativa
+	\item \hypertarget{CU1:TAB}{Trayectoria alternativa B}
+	
+	\noindent \textbf{Condición:} El actor da click en el boton de envio a domicilio en \textbf{IU2 Seleccionar donde recibir}.
+
+\begin{enumerate}
+	\item \textbf{Sistema.} Muestra \textbf{IU4 Dirección}.
+	\item \textbf{Actor.} Ingresa datos personales y da click en siguiente.
+	\item \textbf{Sistema.} Muestra \textbf{IU5 Forma de pago}.
+	\item \textbf{Actor.} Ingresa datos personales y da click en metodo de pago.
+	\item \textbf{Sistema.} Muestra \textbf{IU5 Forma de pago}.
+\end{enumerate}
+
+	Fin de la trayectoria alternativa
+	
+	%Trayectoria alternativa
+	\item \hypertarget{CU1:TAC}{Trayectoria alternativa C}
+	
+	\noindent \textbf{Condición:} El actor no ingresa correctamente los datos.
+	
+	\begin{enumerate}
+		
+		\item \textbf{Sistema.} El sistema pasa recarga la página mostrando el mensaje \textbf{MSG1 Datos no validos}
+		
+	\end{enumerate}
+	
+	Fin de la trayectoria alternativa
+\end{itemize}	
+	
+
+%Puntos de extención
+\noindent \textbf{\\Puntos de extensión}\\
+
+\noindent \textit{Causa de la extensión:} El actor debe ingresar sus datos al sistema.\\
+\textit{Región de la trayectoria:} Paso \hyperlink{CU1:TAB:P4}{4} de la trayectoria alternativa B.\\
+\textit{Extiende a:} \hyperlink{CU2.1}{CU2.1 Ingresar datos del cliente}\\
+

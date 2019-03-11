@@ -1,0 +1,44 @@
+%%%% Catálogo de reglas de negocio %%%%
+
+\section{Modelos de ciclo de vida}
+
+	%Descripción de ciclo de vida
+	\hypertarget{CV:CuentaSolicitante}{}
+	\subsection{Ciclo de vida de una cuenta de solicitante}
+
+		Una cuenta de puede encontrarse en uno de de varios estados que definen su ciclo de vida en el sistema, donde cada estado define las acciones que puede o no realizar el \hyperlink{A:Solicitante}{Solicitante}. Los estados y transiciones posibles para una cuenta de solicitante se muestran en la figura \ref{fig:CV:CuentaSolcitante}.
+
+		%Maquina de estados
+		\begin{figure}[h]
+			
+			\begin{center}				
+				
+				\includegraphics[scale=0.35]{imagenes/CiclosDeVida/cv-CuentaSolicitante.jpg}
+				\caption{Ciclo de vida de una cuenta de solicitante}
+				\label{fig:CV:CuentaSolcitante}
+				
+			\end{center}
+			
+		\end{figure}
+	
+		A continuación se describe cada estado.
+
+		%Descripción de estados
+		\begin{itemize}
+
+			\item \hypertarget{cv:cs:edo:Registrada}{\textit{Registrada}}. Estado con el que inicia la cuenta de un solicitante, una vez que se registra en el sistema mediante el caso de uso \hyperlink{CU1.1}{CU1.1 Registrar solicitante}. El solicitante no puede iniciar sesión con una cuenta en este estado debido a que aún no se encuentra activa. A partir de este estado, se puede pasar únicamente al estado de
+
+			\item \hypertarget{cv:cs:edo:Registrada}{\textit{Activa}}. La cuenta pasa a este estado cuando el solicitante activa su cuenta mediante el caso de uso \hyperlink{CU2}{CU2 Activar cuenta}, donde se registra la contraseña asociada al usuario registrado por el solicitante. Una vez que la cuenta se encuentra activa, el solicitante podrá iniciar sesión en el sistema. Ya no existen más transiciones a partir de este estado.
+
+		\end{itemize}
+
+		\noindent Rererenciada por: 
+		
+			\begin{itemize}
+
+				\item \textit{Actores:} \hyperlink{A:Solicitante}{Solicitante}
+
+				\item \textit{Casos de uso:} \hyperlink{CU1}{CU1 Iniciar sesión}, \hyperlink{CU1.1}{CU1.1 Registrar solicitante}, \hyperlink{CU1.2}{CU1.2 Recuperar contraseña} y \hyperlink{CU2}{CU2 Activar cuenta}
+
+			\end{itemize}
+

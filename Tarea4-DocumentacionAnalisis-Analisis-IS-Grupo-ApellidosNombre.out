@@ -1,0 +1,25 @@
+\BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Objetivo del documento}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Alcance del documento}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Estructura del documento}{chapter.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Modelo de negocio}{}% 5
+\BOOKMARK [1][-]{section.2.1}{Modelos de ciclo de vida}{chapter.2}% 6
+\BOOKMARK [2][-]{subsection.2.1.1}{Ciclo de vida de una cuenta de solicitante}{section.2.1}% 7
+\BOOKMARK [1][-]{section.2.2}{Reglas de negocio del sistema}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.1}{RN-S1 Informaci\363n requerida}{section.2.2}% 9
+\BOOKMARK [1][-]{section.2.3}{Reglas de negocio del negocio}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.3.1}{RN-N1 Fecha v\341lida para registro de solicitantes}{section.2.3}% 11
+\BOOKMARK [0][-]{chapter.3}{Modelo de comportamiento}{}% 12
+\BOOKMARK [1][-]{section.3.1}{M\363dulos}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.2}{Casos de uso: Registro de solicitantes}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.3}{Actores}{chapter.3}% 15
+\BOOKMARK [2][-]{subsection.3.3.1}{Pizza Costumer}{section.3.3}% 16
+\BOOKMARK [0][-]{chapter.4}{Modelo de comportamiento: Registro de solicitantes}{}% 17
+\BOOKMARK [1][-]{section.4.1}{CU1 Visualizar men\372 de pizzas}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.2}{CU4 Seleccionar tipo de entrega}{chapter.4}% 19
+\BOOKMARK [0][-]{chapter.5}{Modelo de interacci\363n}{}% 20
+\BOOKMARK [1][-]{section.5.1}{Identidad gr\341fica}{chapter.5}% 21
+\BOOKMARK [1][-]{section.5.2}{Mensajes}{chapter.5}% 22
+\BOOKMARK [2][-]{subsection.5.2.1}{MSG1 Campos obligatorios faltantes}{section.5.2}% 23
+\BOOKMARK [0][-]{chapter.6}{Modelo de interacci\363n: Registro de solicitantes}{}% 24
+\BOOKMARK [1][-]{section.6.1}{IU1 Iniciar sesi\363n}{chapter.6}% 25

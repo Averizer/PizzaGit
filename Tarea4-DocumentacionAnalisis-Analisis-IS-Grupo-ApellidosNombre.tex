@@ -1,0 +1,70 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%   Documentación de Análisis Versión 1    %%%%
+%%%%                                   por                                 %%%%
+%%%%           José David Ortega Pacheco            %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%   TIPO DE DOCUMENTO: Artículo   %%%%%%
+\documentclass[letterpaper,11pt]{report}
+
+%%%%%%%   PAQUETES   %%%%%%%
+\usepackage[spanish]{babel} %Idioma
+\usepackage{graphicx} %Imágenes
+\usepackage[utf8]{inputenc} %Acentos
+\usepackage{hyperref} %Links
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%    INICIO DEL CUERPO DEL DOCUMENTO  %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+	%%%%%%%    Renombrar en español    %%%%%%
+	\renewcommand{\tablename}{Tabla}
+	\renewcommand{\listtablename}{\'Indice de tablas}
+
+	%%%%%%%    Portada    %%%%%%
+	\input{portada}
+
+	%%%%%%%    Resumen   %%%%%%
+	\input{resumen}
+
+    %%%%%%%   Encabezados   %%%%%%%
+	\pagestyle{headings}
+	
+	%%%%%%%   Numeración romana %%%%%%%
+	\pagenumbering{roman}
+	%\setcounter{page}{1}
+	
+	%%%%%%   Contenido, figuras y tablas   %%%%%%
+	\tableofcontents
+	\listoffigures
+	\listoftables
+	
+	%%%%%%%   Numeración arábiga   %%%%%%%
+	\clearpage
+	\pagenumbering{arabic}
+	%\setcounter{page}{1}
+
+	%%%%%%%%%%%%%%%%    Capítulos    %%%%%%%%%%%%%%%%
+
+	%Introducción
+	\input{Introduccion}
+
+	%Modelo de negocio
+	\input{ModeloNegocio/negocio}
+
+	%Modelo de comportamiento
+	\input{ModeloComportamiento/comportamiento} %General
+	\input{ModeloComportamiento/RegistroSolicitantes/ComportamientoRegistroSolicitantes} %Módulo: Registro de Solicitantes
+
+	%Modelo de interacción
+	\input{ModeloInteraccion/interaccion} %General
+	\input{ModeloInteraccion/RegistroSolicitantes/InteraccionRegistroSolicitantes} %Módulo: Registro de Solicitantes
+
+	%Referencias utilizadas
+	\input{bibliografia}
+
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%    FIN DEL CUERPO DEL DOCUMENTO     %%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

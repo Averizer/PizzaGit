@@ -1,0 +1,58 @@
+%%%% Pantalla(s) asociadas a caso de uso %%%%
+
+\pagebreak
+\hypertarget{IU1}{}
+\section{IU1 Iniciar sesión}
+
+	%Descripción de la pantalla
+	\noindent \textbf{Descripción de pantalla(s)}\\
+
+		La pantalla mostrada en la figura \ref{IU1} tiene como objetivo permitir a los solicitante con cuenta activa el ingreso al sistema. Se tienen como campos de entrada: \textbf{Usuario} y \textbf{Contraseña}, ambos obligatorios. 
+		
+		Una vez que el solicitante ingresa la información requerida, deberá presionar el botón \textbf{Aceptar} para que el sistema permita el inicio de sesión y si los datos proporcionados son correctos, se mostrará la pantalla correspondiente a la figura \ref{IU1-A}, la cual describe la bienvenida en el sistema para el solicitante y da entrada a cada una de las funcionalidades a las que el usuario tiene derecho.
+
+		%Pantalla del sistema
+		\begin{figure}[h]
+
+			\begin{center}				
+
+				\includegraphics[scale=0.35]{./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU1-IniciarSesion.jpg}
+				\caption{IU1 Iniciar sesión}
+				\label{IU1}
+
+			\end{center}
+				
+		\end{figure}
+
+		%Pantalla del sistema
+		\begin{figure}[h]
+
+			\begin{center}
+			
+				\includegraphics[scale=0.35]{./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU1-A-BienvenidaSolicitante.jpg}
+				\caption{IU1-A Bienvenida para solicitante}
+				\label{IU1-A}
+
+			\end{center} 				
+
+		\end{figure}
+
+		\pagebreak
+		Si el solicitante no se encuentra registrado en el sistema y desea obtener una cuenta de usuario, en la pantalla \ref{IU1} se encuentra el link \textbf{Registrarse}, mediante el cual se tendrá acceso a la funcionalidad que permite conseguir una cuenta de usuario si las condiciones en el sistema lo permiten.
+
+		Cuando el solicitante haya olvidado su contraseña de usuario para iniciar sesión y desee obtener una nueva, en la pantalla \ref{IU1} se encuentra el link \textbf{Recuperar contraseña}, mediante el cual se tendrá acceso a la funcionalidad que permitirá obtener una nueva contraseña.
+
+		El caso de uso \hyperlink{CU1}{CU1 Iniciar sesión}, describe de forma detallada el comportamiento asociado.
+
+	%Acciones asociadas
+	\noindent \textbf{\\Acciones en pantalla}
+
+		\begin{itemize}
+
+			\item \includegraphics[scale=0.03]{imagenes/iconografia/aceptar.jpg}: Dirige a la pantalla mostrada en  la figura \ref{IU1-A}
+			\item \textit{Registrarse:} Dirige a la pantalla \hyperlink{IU1.1}{IU1.1 Registrar solicitante}
+			\item \textit{Recuperar contraseña:} Dirige a la pantalla \hyperlink{IU1.2}{IU1.2 Recuperar contraseña}
+
+		\end{itemize}
+
+
