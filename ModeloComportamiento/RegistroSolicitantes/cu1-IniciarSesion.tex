@@ -14,9 +14,9 @@
 
 		\begin{itemize}
 
-			\item \textit{Actor(es):} \hyperlink{A:Pizza Costumer}{Pizza Costumer}
-			\item \textit{Precondiciones:} Que el \hyperlink{A:Pizza Costumer}{Pizza Costumer} tenga acceso a internet. 
-			\item \textit{Postcondiciones:} El \hyperlink{A:Pizza Costumer}{Pizza Costumer} podrá ingresar al sistema para realizar las actividades que su rol le permite.
+			\item \textit{Actor(es):} \hyperlink{A:Pizza Customer}{Pizza Customer}
+			\item \textit{Precondiciones:} Que el \hyperlink{A:Pizza Customer}{Pizza Customer} tenga acceso a internet. 
+			\item \textit{Postcondiciones:} El \hyperlink{A:Pizza Customer}{Pizza Customer} podrá ingresar al sistema para realizar las actividades que su rol le permite.
 			\item \textit{Ciclos de vida:} ??
 			\item \textit{Reglas de negocio:} ??
 			\item \textit{Mensajes:} ??
@@ -107,94 +107,5 @@
 		\textit{Extiende a:} \hyperlink{CU2.1}{CU2.1 Ingresar datos del cliente}\\
 
 		
-\section{CU4 Seleccionar tipo de entrega}
 
-%Resumen
-\noindent \textbf{Resumen}\\
-
-Para acceder al caso de uso ingresar datos, es necesario que usuario haya seleccionado una pizza y haya dado click al botón de proceder a pagar. En este caso de uso se toma la decisión de entrega a domicilio o recoger en sucursal.
-
-%Atributos
-\noindent \textbf{\\Atributos}
-
-\begin{itemize}
-	
-	\item \textit{Actor(es):} \hyperlink{A:Pizza Costumer}{Pizza Costumer}
-	\item \textit{Precondiciones:} Que el \hyperlink{A:Pizza Costumer}{Pizza Costumer} haya terminado de seleccionar lo que va a consumir y prosiga con la forma de pago. 
-	\item \textit{Postcondiciones:} El \hyperlink{A:Pizza Costumer}{Pizza Costumer} podrá Seleccionar la forma de pago.
-	\item \textit{Ciclos de vida:} ??
-	\item \textit{Reglas de negocio:} ??
-	\item \textit{Mensajes:} ??
-	\item \textit{Viene de:} ??
-	
-\end{itemize} 
-
-%Trayectoria principal
-\noindent \textbf{Trayectoria principal}
-
-\begin{enumerate}
-	\item {\textbf{Actor.}} El usuario da click en el botón ``En tienda". \hypertarget{CU4:TAB}{Trayectoria alternativa A.}\newline
-	El usuario da click en el botón ``Domicilio". \hypertarget{CU4:TAB}{Trayectoria alternativa B.} 
-	\item \textbf{Sistema.} Muestra la pantalla \textbf{IU4 Ingesar datos personales} trayectoria alternativa A o bien \textbf{IU3 Ingesar dirección} trayectoria alternativa B.
-	\item \textbf{Actor.} Ingresa los datos requeridos, si no son validos pasa a trayectoria alternativa C.
-	\item \hypertarget{CU1:TP:P4}{\textbf{Sistema.}} Muestra la pantalla  \textbf{IU5 Selecciona la forma de pago}.
-	
-\end{enumerate}
-
-Fin de la trayectoria principal
-
-%Trayectorias alternativas
-\noindent \textbf{\\Trayectorias alternativas}
-
-\begin{itemize}
-	
-	%Trayectoria alternativa
-	\item \hypertarget{CU4:TAA}{Trayectoria alternativa A}
-	
-	\noindent \textbf{Condición:} El actor dió click en el botón de Recoger en tienda en \textbf{IU2 Seleccionar donde recibir}.
-	
-	\begin{enumerate}
-		\item \textbf{Sistema.} Muestra \textbf{IU3 Datos personales}.
-		\item \textbf{Actor.} Ingresa datos personales y da click en metodo de pago.
-		\item \textbf{Sistema.} Muestra \textbf{IU5 Forma de pago}.
-	\end{enumerate}
-	
-	Fin de la trayectoria alternativa
-	
-	%Trayectoria alternativa
-	\item \hypertarget{CU1:TAB}{Trayectoria alternativa B}
-	
-	\noindent \textbf{Condición:} El actor da click en el boton de envio a domicilio en \textbf{IU2 Seleccionar donde recibir}.
-
-\begin{enumerate}
-	\item \textbf{Sistema.} Muestra \textbf{IU4 Dirección}.
-	\item \textbf{Actor.} Ingresa datos personales y da click en siguiente.
-	\item \textbf{Sistema.} Muestra \textbf{IU5 Forma de pago}.
-	\item \textbf{Actor.} Ingresa datos personales y da click en metodo de pago.
-	\item \textbf{Sistema.} Muestra \textbf{IU5 Forma de pago}.
-\end{enumerate}
-
-	Fin de la trayectoria alternativa
-	
-	%Trayectoria alternativa
-	\item \hypertarget{CU1:TAC}{Trayectoria alternativa C}
-	
-	\noindent \textbf{Condición:} El actor no ingresa correctamente los datos.
-	
-	\begin{enumerate}
-		
-		\item \textbf{Sistema.} El sistema pasa recarga la página mostrando el mensaje \textbf{MSG1 Datos no validos}
-		
-	\end{enumerate}
-	
-	Fin de la trayectoria alternativa
-\end{itemize}	
-	
-
-%Puntos de extención
-\noindent \textbf{\\Puntos de extensión}\\
-
-\noindent \textit{Causa de la extensión:} El actor debe ingresar sus datos al sistema.\\
-\textit{Región de la trayectoria:} Paso \hyperlink{CU1:TAB:P4}{4} de la trayectoria alternativa B.\\
-\textit{Extiende a:} \hyperlink{CU2.1}{CU2.1 Ingresar datos del cliente}\\
 
