@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.10)  10 MAR 2019 23:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.10)  18 MAR 2019 16:04
 entering extended mode
 **./Tarea4-DocumentacionAnalisis-Analisis-IS-Grupo-ApellidosNombre.tex
 (Tarea4-DocumentacionAnalisis-Analisis-IS-Grupo-ApellidosNombre.tex
@@ -452,13 +452,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
  []
 
 
-Overfull \hbox (35.84184pt too wide) in paragraph at lines 10--11
-\OT1/cmr/m/n/10.95 menu, de-bera in-gre-sar des-de su na-ve-ga-dor al do-mi-n
-io \OT1/cmr/bx/n/10.95 www.pizzaplaneta.com.mx
+Overfull \hbox (4.20847pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10.95 de-bera in-gre-sar des-de su na-ve-ga-dor al do-mi-nio \OT1
+/cmr/bx/n/10.95 www.pizzaplaneta.com.mx
  []
 
-LaTeX Info: Redefining \. on input line 41.
-LaTeX Info: Redefining \% on input line 41.
+LaTeX Info: Redefining \. on input line 57.
+LaTeX Info: Redefining \% on input line 57.
 
 Overfull \hbox (73.66132pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/10.95 CAP[]ITULO 4.  MODELO DE COMPORTAMIENTO: REGISTRO DE SOLICI
@@ -466,25 +466,17 @@ TANTES \OT1/cmr/m/n/10.95 11
  []
 
 [11]
-Overfull \hbox (2.895pt too wide) in paragraph at lines 77--78
-[]\OT1/cmr/bx/n/10.95 Sistema. \OT1/cmr/m/n/10.95 En ca-so de fal-tar algun da
--to, mues-tra el men-sa-je \OT1/cmr/bx/n/10.95 MSG1
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
  []
 
 
-Overfull \hbox (2.175pt too wide) in paragraph at lines 77--78
-\OT1/cmr/bx/n/10.95 Cam-pos obli-ga-to-rios fal-tan-tes\OT1/cmr/m/n/10.95 .[]MS
-G1 Cam-pos obli-ga-to-rios fal-
+Underfull \hbox (badness 10000) in paragraph at lines 105--108
+
  []
 
-
-Overfull \hbox (19.67006pt too wide) in paragraph at lines 78--79
-[]\OT1/cmr/bx/n/10.95 Sistema. \OT1/cmr/m/n/10.95 Re-gre-sa al pa-so []5[] de l
-a tra-yec-to-ria al-ter-na-ti-va B.[]Trayectoria
- []
-
-LaTeX Info: Redefining \. on input line 93.
-LaTeX Info: Redefining \% on input line 93.
+LaTeX Info: Redefining \. on input line 108.
+LaTeX Info: Redefining \% on input line 108.
 
 Overfull \hbox (73.66132pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/10.95 CAP[]ITULO 4.  MODELO DE COMPORTAMIENTO: REGISTRO DE SOLICI
@@ -492,104 +484,57 @@ TANTES \OT1/cmr/m/n/10.95 12
  []
 
 [12]
-Overfull \hbox (2.895pt too wide) in paragraph at lines 97--98
-[]\OT1/cmr/bx/n/10.95 Sistema. \OT1/cmr/m/n/10.95 En ca-so de fal-tar algun da
--to, mues-tra el men-sa-je \OT1/cmr/bx/n/10.95 MSG1
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
  []
 
-
-Overfull \hbox (2.175pt too wide) in paragraph at lines 97--98
-\OT1/cmr/bx/n/10.95 Cam-pos obli-ga-to-rios fal-tan-tes\OT1/cmr/m/n/10.95 .[]MS
-G1 Cam-pos obli-ga-to-rios fal-
- []
-
-
-Overfull \hbox (19.82213pt too wide) in paragraph at lines 98--99
-[]\OT1/cmr/bx/n/10.95 Sistema. \OT1/cmr/m/n/10.95 Re-gre-sa al pa-so []2[] de l
-a tra-yec-to-ria al-ter-na-ti-va C.[]Trayectoria
- []
-
-
-Overfull \hbox (24.55698pt too wide) in paragraph at lines 112--113
-[]\OT1/cmr/bx/n/10.95 Actor. \OT1/cmr/m/n/10.95 Se-lec-cio-na la op-cion \OT1/
-cmr/bx/n/10.95 Tar-je-ta de debi-to o credi-to\OT1/cmr/m/n/10.95 .[]Trayector
-ia
- []
-
-LaTeX Info: Redefining \. on input line 138.
-LaTeX Info: Redefining \% on input line 138.
+LaTeX Info: Redefining \. on input line 140.
+LaTeX Info: Redefining \% on input line 140.
 
 Overfull \hbox (73.66132pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/10.95 CAP[]ITULO 4.  MODELO DE COMPORTAMIENTO: REGISTRO DE SOLICI
 TANTES \OT1/cmr/m/n/10.95 13
  []
 
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+[13pdfTeX warning (ext4): destination with the same identifier (name{CU4:TAB}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.140 	\item \hypertarget
+                         {CU1:TP:P4}{\textbf{Sistema.}} Muestra la pantalla ...
+]pdfTeX warning (ext4): destination with the same identifier (name{CU1:TP:P4}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.140 ...hypertarget{CU1:TP:P4}{\textbf{Sistema.}}
+                                                   Muestra la pantalla  \tex...
+pdfTeX warning (ext4): destination with the same identifier (name{CU1:TAB}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.165 ...arget{CU1:TAB}{Trayectoria alternativa B}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{CU1:TAC}) has been already used, duplicate
+ ignored
+<to be read again> 
+                   \relax 
+l.180 ...arget{CU1:TAC}{Trayectoria alternativa C}
+                                                  
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--157
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
-
- []
-
-LaTeX Info: Redefining \. on input line 181.
-LaTeX Info: Redefining \% on input line 181.
+LaTeX Info: Redefining \. on input line 196.
+LaTeX Info: Redefining \% on input line 196.
 
 Overfull \hbox (73.66132pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/10.95 CAP[]ITULO 4.  MODELO DE COMPORTAMIENTO: REGISTRO DE SOLICI
 TANTES \OT1/cmr/m/n/10.95 14
  []
 
-[14]pdfTeX warning (ext4): destination with the same identifier (name{CU1:TP:P4
-}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.194 ...hypertarget{CU1:TP:P4}{\textbf{Sistema.}}
-                                                   Muestra la pantalla  \tex...
-pdfTeX warning (ext4): destination with the same identifier (name{CU1:TAB}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.219 ...arget{CU1:TAB}{Trayectoria alternativa B}
-                                                  
-LaTeX Info: Redefining \. on input line 229.
-LaTeX Info: Redefining \% on input line 229.
-
-Overfull \hbox (73.66132pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10.95 CAP[]ITULO 4.  MODELO DE COMPORTAMIENTO: REGISTRO DE SOLICI
-TANTES \OT1/cmr/m/n/10.95 15
- []
-
-[15pdfTeX warning (ext4): destination with the same identifier (name{CU4:TAB}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.229 \end{enumerate}
-                     ]pdfTeX warning (ext4): destination with the same identifi
-er (name{CU1:TAC}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.234 ...arget{CU1:TAC}{Trayectoria alternativa C}
-                                                  
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 251--254
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 197--200
 
  []
 
@@ -599,22 +544,22 @@ LaTeX Info: Redefining \% on input line 3.
 
 Overfull \hbox (73.66132pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/10.95 CAP[]ITULO 4.  MODELO DE COMPORTAMIENTO: REGISTRO DE SOLICI
-TANTES \OT1/cmr/m/n/10.95 16
+TANTES \OT1/cmr/m/n/10.95 15
  []
 
-[16]
+[15]
 Cap\'{\i }tulo 5.
 (ModeloInteraccion/IdentidadGrafica.tex) (ModeloInteraccion/mensajes.tex
-[17
+[16
 
 ]))
 (ModeloInteraccion/RegistroSolicitantes/InteraccionRegistroSolicitantes.tex
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
 
-[18]
+[17]
 Cap\'{\i }tulo 6.
-(ModeloInteraccion/RegistroSolicitantes/iu1-IniciarSesion.tex [19
+(ModeloInteraccion/RegistroSolicitantes/iu1-IniciarSesion.tex [18
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
@@ -622,7 +567,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
  []
 
 <./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU1-IniciarSesion.jpg, i
-d=418, 1078.0275pt x 490.83376pt>
+d=352, 1078.0275pt x 490.83376pt>
 File: ./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU1-IniciarSesion.j
 pg Graphic file (type jpg)
 <use ./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU1-IniciarSesion.jp
@@ -636,7 +581,7 @@ Overfull \hbox (17.31528pt too wide) in paragraph at lines 19--20
  []
 
 <./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU1-A-BienvenidaSolicita
-nte.jpg, id=419, 1078.0275pt x 490.83376pt>
+nte.jpg, id=353, 1078.0275pt x 490.83376pt>
 File: ./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU1-A-BienvenidaSol
 icitante.jpg Graphic file (type jpg)
 <use ./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU1-A-BienvenidaSoli
@@ -657,12 +602,12 @@ LaTeX Info: Redefining \% on input line 41.
 
 Overfull \hbox (42.78833pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/10.95 CAP[]ITULO 6.  MODELO DE INTERACCI[]ON: REGISTRO DE SOLICIT
-ANTES \OT1/cmr/m/n/10.95 20
+ANTES \OT1/cmr/m/n/10.95 19
  []
 
-[20 <./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU1-IniciarSesion.jp
+[19 <./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU1-IniciarSesion.jp
 g>]
-<imagenes/iconografia/aceptar.jpg, id=429, 1078.0275pt x 490.83376pt>
+<imagenes/iconografia/aceptar.jpg, id=362, 1078.0275pt x 490.83376pt>
 File: imagenes/iconografia/aceptar.jpg Graphic file (type jpg)
 <use imagenes/iconografia/aceptar.jpg>
 Package pdftex.def Info: imagenes/iconografia/aceptar.jpg  used on input line 5
@@ -674,13 +619,13 @@ LaTeX Info: Redefining \% on input line 2.
 
 Overfull \hbox (42.78833pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/10.95 CAP[]ITULO 6.  MODELO DE INTERACCI[]ON: REGISTRO DE SOLICIT
-ANTES \OT1/cmr/m/n/10.95 21
+ANTES \OT1/cmr/m/n/10.95 20
  []
 
-[21 <./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU1-A-BienvenidaSoli
+[20 <./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU1-A-BienvenidaSoli
 citante.jpg> <./imagenes/iconografia/aceptar.jpg>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
- [22
+ [21
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
@@ -693,51 +638,33 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
 Package rerunfilecheck Info: File `Tarea4-DocumentacionAnalisis-Analisis-IS-Gru
 po-ApellidosNombre.out' has not changed.
-(rerunfilecheck)             Checksum: C4EEBDF0E72A9906864E39FD199030A6;1827.
+(rerunfilecheck)             Checksum: BE7BD2D2869DC7D64660F82217B046D4;1816.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
  ) 
 Here is how much of TeX's memory you used:
- 6259 strings out of 492946
- 97128 string characters out of 3124934
- 190356 words of memory out of 3000000
+ 6223 strings out of 492946
+ 96501 string characters out of 3124934
+ 189356 words of memory out of 3000000
  9879 multiletter control sequences out of 15000+200000
  11062 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,6n,31p,687b,528s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,6n,31p,687b,467s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{IU1.2} has been referenced but does not exist, re
 placed by a fixed one
 
 pdfTeX warning (dest): name{IU1.1} has been referenced but does not exist, repl
 aced by a fixed one
 
-pdfTeX warning (dest): name{IU10} has been referenced but does not exist, repla
-ced by a fixed one
-
-pdfTeX warning (dest): name{MSG2:OrdenCorrecta} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{IU9} has been referenced but does not exist, replac
-ed by a fixed one
-
-pdfTeX warning (dest): name{IU8} has been referenced but does not exist, replac
-ed by a fixed one
-
-pdfTeX warning (dest): name{IU6} has been referenced but does not exist, replac
-ed by a fixed one
-
-pdfTeX warning (dest): name{IU7} has been referenced but does not exist, replac
-ed by a fixed one
-
-pdfTeX warning (dest): name{IU5} has been referenced but does not exist, replac
-ed by a fixed one
-
-pdfTeX warning (dest): name{IU2} has been referenced but does not exist, replac
-ed by a fixed one
-
-pdfTeX warning (dest): name{IU4} has been referenced but does not exist, replac
-ed by a fixed one
+pdfTeX warning (dest): name{MSG:SeleccionarOpcion} has been referenced but does
+ not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{IU3} has been referenced but does not exist, replac
+ed by a fixed one
+
+pdfTeX warning (dest): name{CU1:TP:P2} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{IU2} has been referenced but does not exist, replac
 ed by a fixed one
 
 pdfTeX warning (dest): name{CU2.1} has been referenced but does not exist, repl
@@ -770,9 +697,9 @@ no/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 <C:/Users/Emiliano/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmti12.pfb>
 Output written on Tarea4-DocumentacionAnalisis-Analisis-IS-Grupo-ApellidosNombr
-e.pdf (27 pages, 774342 bytes).
+e.pdf (26 pages, 762104 bytes).
 PDF statistics:
- 516 PDF objects out of 1000 (max. 8388607)
- 152 named destinations out of 1000 (max. 500000)
+ 443 PDF objects out of 1000 (max. 8388607)
+ 116 named destinations out of 1000 (max. 500000)
  231 words of extra memory for PDF output out of 10000 (max. 10000000)
 
