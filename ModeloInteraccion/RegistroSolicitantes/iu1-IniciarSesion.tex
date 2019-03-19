@@ -5,7 +5,7 @@
 \section{IU1 Menú de Pizzas}
 
 	%Descripción de la pantalla
-	\noindent \textbf{Descripción de pantalla(s)}\\
+	\noindent \textbf{Descripción de la pantalla}\\
 
 		La pantalla mostrada en la figura \ref{IU1} tiene como objetivo permitir a los clientes mostrar el menú de pizzas que Pizza Planeta ofrece. 
 		No se cuenta con campos de entrada. 
@@ -34,8 +34,66 @@
 
 			\item \includegraphics[scale=0.500]{imagenes/iconografia/Seleccionar.png}: Dirige a la pantalla \hyperlink{IU2}{IU2 Personaliza Pizza}
 			\item \includegraphics[scale=0.500]{imagenes/iconografia/Carrito.png}: Dirige a la pantalla \hyperlink{IU3}{IU3 Carrito de Compras}
-			\item \includegraphics[scale=0.500]{imagenes/iconografia/Menu.png}: Dirige a la pantalla \ref{IU1}
+			\item \includegraphics[scale=0.500]{imagenes/iconografia/Menu.png}: Dirige a la pantalla de la figura \ref{IU1}
 
 		\end{itemize}
+	
+	\hypertarget{IU2}{}
+	\section{IU2 Personaliza Pizza}
+	
+	%Descripción de la pantalla
+	\noindent \textbf{Descripción de las pantallas}\\
+	
+	La pantalla mostrada en la figura \ref{IU2} tiene como objetivo permitir a los clientes seleccionar atributos referentes a la manera de preparación de la pizza seleccionada.
+	Los campos de entrada son tamaño, tipo y cantidad, todos con la característica de ser obligatorios.
+	
+	El cliente podrá interactuar en la pantalla con los diferentes botones y check box como se mostrará en la pantalla correspondiente a la figura \ref{IU2}.
+	%Pantalla del sistema
+	\begin{figure}[h]
+		
+		\begin{center}				
+			
+			\includegraphics[scale=0.50]{./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU2-PersonalizaPizza.png}
+			\caption{IU2 Personaliza Pizza}
+			\label{IU2}
+			
+		\end{center}
+		
+	\end{figure}
+	
+	
+	El caso de uso \hyperlink{CU1}{CU1 Seleccionar Pizza}, describe de forma detallada el comportamiento asociado.
+	
+	%Acciones asociadas
+	\noindent \textbf{\\Acciones en pantalla}
+	
+	\begin{itemize}
+		
+		\item \includegraphics[scale=0.500]{imagenes/iconografia/Menu.png}: Dirige a la pantalla de la figura \ref{IU1}
+		\item \includegraphics[scale=0.500]{imagenes/iconografia/Carrito.png}: Dirige a la pantalla de la figura \ref{IU2}
+		\item \includegraphics[scale=0.500]{imagenes/iconografia/Tamanos.png}: Permite seleccionar el tamaño deseado de la pizza.
+		\item \includegraphics[scale=0.500]{imagenes/iconografia/Tipos.png}: Permite seleccionar la masa deseada para la pizza.
+		\item \includegraphics[scale=0.500]{imagenes/iconografia/Cantidad.png}: Permite seleccionar la cantidad de pizzas a agregar al carrito.
+		\item \includegraphics[scale=0.500]{imagenes/iconografia/AgregarCarrito.png}: Dirige a la pantalla de la figura \ref{IU2.1}
+		\item \includegraphics[scale=0.500]{imagenes/iconografia/Cancelar.png}: Dirige a la pantalla de la figura \ref{IU1}
+		
+		
+		En la pantalla se mostrará un mensaje indicando que la orden fue agregada con éxito al carrito de compras.
+		
+		
+			%Pantalla del sistema
+		\begin{figure}[h]
+			
+			\begin{center}				
+				
+				\includegraphics[scale=0.50]{imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU2-1-PersonalizaPizzaMensaje.png}
+				\caption{IU2.1 Personaliza Pizza Mensaje}
+				\label{IU2.1}
+				
+			\end{center}
+			
+		\end{figure}
+		
+	\end{itemize}
 
 
