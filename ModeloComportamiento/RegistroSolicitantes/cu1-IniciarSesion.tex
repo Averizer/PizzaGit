@@ -107,5 +107,118 @@
 		\textit{Extiende a:} \hyperlink{CU2.1}{CU2.1 Ingresar datos del cliente}\\
 
 		
+\hypertarget{CU2}{}
+\section{CU2 Ver carrito de compras}
 
+%Resumen
+\noindent \textbf{Resumen}\\
 
+Para que el pizza costumer pueda acceder al módulo de seleccionar pizza, deberá ingresar desde su navegador al dominio {\textbf{www.pizzaplaneta.com.mx}} y de esta manera poder visualizar la pantalla principal del sistema desde la cual dando click en Menú se llega a este caso de uso.
+
+%Atributos
+\noindent \textbf{\\Atributos}
+
+\begin{itemize}
+	
+	\item \textit{Actor(es):} \hyperlink{A:Pizza Customer}{Pizza Customer}
+	\item \textit{Precondiciones:} Que el \hyperlink{A:Pizza Customer}{Pizza Customer} tenga acceso a internet. 
+	\item \textit{Postcondiciones:} El \hyperlink{A:Pizza Customer}{Pizza Customer} podrá gestionar sus carrito de compras.
+	\item \textit{Ciclos de vida:} ?? 
+	\item \textit{Reglas de negocio:} ??
+	\item \textit{Mensajes:} ??
+	\item \textit{Viene de:} No aplica.
+	
+\end{itemize} 
+		
+%Trayectoria principal
+\noindent \textbf{Trayectoria principal}
+
+\begin{enumerate}
+	\item {\textbf{Actor.}} Ingresa la dirección electrónica de la pizzería en su navegador.
+	
+	\item \textbf{Sistema.} Muestra la pantalla \textbf{IU1 Menú de pizza} descrita en \hyperlink{IU1}{IU1 Inicio}.
+	
+	\item {\textbf{Actor.}} Da click en el botón de Carrito.
+	
+	\item \hypertarget{CU2:TP:P4}{\textbf{Sistema.}} Muestra la pantalla \textbf{IU3 Carrito de compras} descrita en \hyperlink{IU3}{IU3 Carrito de compras}.
+	
+	\item \textbf{Actor.} El actor da click en el botón  Proceder con la compra.
+	\\ \hyperlink{CU2:TAA}{Trayectoria alternativa A}.
+	\\ \hyperlink{CU2:TAB}{Trayectoria alternativa B}. 
+	\\ \hyperlink{CU2:TAC}{Trayectoria alternativa C}. 
+	
+	\item \hypertarget{CU1:TP:P4}{\textbf{Sistema.}} Extiende el caso de uso \textbf{CU3 Realizar compra de la pizza}, muestra \textbf{IU4 Datos personales}.
+	
+
+\end{enumerate}	
+Fin de la trayectoria principal
+\\
+%Trayectorias alternativas
+\noindent \textbf{\\Trayectorias alternativas}
+
+\begin{itemize}
+	
+	%Trayectoria alternativa
+	\item \hypertarget{CU2:TAA}{Trayectoria alternativa A}
+	
+	\noindent \textbf{Condición:} El actor selecciono el botón de \textbf{carrito} en la pantalla \textbf{IU3 Carrito de compras}.
+	
+	\begin{enumerate}
+		\item \textbf{Actor.} Da click en el botón \textbf{Carrito}.
+		\item \textbf{Sistema.} Regresa al paso \hyperlink{CU2:TP:P4}{4} de la trayectoria principal.
+	\end{enumerate}
+	
+	Fin de la trayectoria alternativa
+	
+	%Trayectoria alternativa
+	\item \hypertarget{CU2:TAB}{Trayectoria alternativa B}
+	
+	\noindent \textbf{Condición:} El actor selecciono cualquiera de los botones \textbf{eliminar} en la pantalla \textbf{IU3 Carrito de compras}.
+	
+	\begin{enumerate}
+		\item \textbf{Actor.} Da click en cualquiera de los botones  \textbf{Eliminar}.
+		\item \textbf{Sistema.}Muestra una alerta en pantalla con dos opciones, \textbf{cancelar} y \textbf{aceptar}.
+		\\ \textbf{Cancelar}, regresa al paso \hyperlink{CU2:TP:P4}{4} de la trayectoria principal.
+		\\ \textbf{Aceptar} continua la trayectoria.
+		\item \textbf{Sistema.}Elimina la fila de la tabla en la cual se dio el click.
+		\item \textbf{Sistema.}Recarga la pagina con la tabla actualizada del carrito de compras.
+	\end{enumerate}
+	
+	Fin de la trayectoria alternativa
+	
+	%Trayectoria alternativa
+	\item \hypertarget{CU2:TAC}{Trayectoria alternativa C}
+	
+	\noindent \textbf{Condición:} El actor selecciono el botón \textbf{Menú} o el botón \textbf{Seguir comprando} en la pantalla \textbf{IU3 Carrito de compras}.
+	
+	\begin{enumerate}
+		\item \textbf{Actor.} Da click en botón \textbf{Menú} o el botón \textbf{Seguir comprando}.
+		\item \textbf{Sistema.} Muestra la pantalla \textbf{IU1 Inicio}.
+	\end{enumerate}
+	
+	Fin de la trayectoria alternativa
+
+\end{itemize}
+
+\hypertarget{CU2}{}
+\section{CU3 Realizar la compra}
+
+%Resumen
+\noindent \textbf{Resumen}\\
+
+Para que el pizza costumer pueda acceder al módulo de seleccionar pizza, deberá ingresar desde su navegador al dominio {\textbf{www.pizzaplaneta.com.mx}} y de esta manera poder visualizar la pantalla principal del sistema desde la cual dando click en Menú se llega a este caso de uso.
+
+%Atributos
+\noindent \textbf{\\Atributos}
+
+\begin{itemize}
+	
+	\item \textit{Actor(es):} \hyperlink{A:Pizza Customer}{Pizza Customer}
+	\item \textit{Precondiciones:} Que el \hyperlink{A:Pizza Customer}{Pizza Customer} tenga acceso a internet. 
+	\item \textit{Postcondiciones:} El \hyperlink{A:Pizza Customer}{Pizza Customer} podrá gestionar sus carrito de compras.
+	\item \textit{Ciclos de vida:} ?? 
+	\item \textit{Reglas de negocio:} ??
+	\item \textit{Mensajes:} ??
+	\item \textit{Viene de:} No aplica.
+	
+\end{itemize} 
