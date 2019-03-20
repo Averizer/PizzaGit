@@ -114,6 +114,7 @@ La pantalla mostrada en la figura \ref{IU3} tiene como objetivo mostrar a los cl
 No se cuenta con campos de entrada.
 
 El cliente podrá interactuar en la pantalla con los diferentes botones como se mostrará en la pantalla correspondiente a la figura \ref{IU3}.
+
 %Pantalla del sistema
 \begin{figure}[h]
 	
@@ -140,6 +141,8 @@ El caso de uso \hyperlink{CU2}{CU2 Ver Carrito de Compras}, describe de forma de
 	\item \includegraphics[scale=0.500]{imagenes/iconografia/Eliminar.png}: Permite eliminar alguna de las opciones agregadas con anterioridad al carrito.
 	\item \includegraphics[scale=0.500]{imagenes/iconografia/Proceder.png}: Dirige a la pantalla de la figura \ref{IU4}
 	
+\end{itemize}
+
 	En la pantalla se mostrará un mensaje indicando que si se está seguro de querer eliminar esa pizza.
 	
 	
@@ -175,20 +178,19 @@ El caso de uso \hyperlink{CU2}{CU2 Ver Carrito de Compras}, describe de forma de
 		\label{IU3.2}
 		
 	\end{center}
-	
-\end{figure}
-	
-\noindent \textbf{\\Acciones en pantalla}
+
+	\noindent \textbf{\\Acciones en pantalla}
 	
 	\begin{itemize}
 		
 		\item \includegraphics[scale=0.500]{imagenes/iconografia/Seguir.png}: Dirige a la pantalla de la figura \ref{IU1}
 		
 	\end{itemize}
+	
+\end{figure}
 
-\end{itemize}
-
-\hypertarget{IU1}{}
+\pagebreak		
+\hypertarget{IU4}{}
 \section{IU4 Datos de Compra}
 
 %Descripción de la pantalla
@@ -197,7 +199,8 @@ El caso de uso \hyperlink{CU2}{CU2 Ver Carrito de Compras}, describe de forma de
 La pantalla mostrada en la figura \ref{IU4} tiene como objetivo permitir a los clientes ingresar sus datos para poder continuar con su compra.
 Los campos de entrada son datos necesarios para poder lograr el envío exitosamente (nombre, teléfono, correo, calle, número, cp, colonia, delegación, estado, tipo de envío) y están marcados como obligatorios.
 
-El cliente podrá interactuar en la pantalla con los diferentes botones y  como se mostrará en la pantalla correspondiente a la figura \ref{IU4}.
+El cliente podrá interactuar en la pantalla con los diferentes botones y  como se mostrará en la pantalla correspondiente a la figura \ref{IU4}.\newline \newline
+
 %Pantalla del sistema
 \begin{figure}[h]
 	
@@ -211,17 +214,110 @@ El cliente podrá interactuar en la pantalla con los diferentes botones y  como 
 	
 \end{figure}
 
-
-%El caso de uso \hyperlink{CU3}{CU3 Relizar Compra de Pizza}, describe de forma detallada el comportamiento asociado.
+El caso de uso \hyperlink{CU3}{CU3 Realizar Compra de Pizza}, describe de forma detallada el comportamiento asociado.
 
 %Acciones asociadas
 \noindent \textbf{\\Acciones en pantalla}
 
 \begin{itemize}
 	
-	\item \textbf{Nombre:} Permite ingresar el nombre del cliente.
 	\item \includegraphics[scale=0.500]{imagenes/iconografia/Carrito.png}: Dirige a la pantalla \hyperlink{IU3}{IU3 Carrito de Compras}
 	\item \includegraphics[scale=0.500]{imagenes/iconografia/Menu.png}: Dirige a la pantalla de la figura \ref{IU1}
+	\item \textbf{Nombre:} Permite ingresar el nombre del cliente.
+	\item \textbf{Teléfono:} Permite ingresar el teléfono del cliente.
+	\item \textbf{Correo:} Permite ingresar el correo del cliente.
+	\item \textbf{Calle:} Permite ingresar la calle en donde vive el cliente.
+	\item \textbf{CP:} Permite ingresar el código postal del lugar donde vive el cliente.
+	\item \textbf{Colonia:} Permite ingresar la colonia donde vive el cliente.
+	\item \textbf{Delegación o municipio:} Permite ingresar la delegación o municipio en donde vive el cliente.
+	\item \textbf{Estado:} Permite ingresar el estado en donde vive el cliente.
+	\item \textbf{Tipo de envío:} Permite ingresar tipo de envío que el cliente prefiere.
+	\item \includegraphics[scale=0.500]{imagenes/iconografia/Cancelar.png}: Dirige a la pantalla de la figura \ref{IU3}
+	\item \includegraphics[scale=0.500]{imagenes/iconografia/Continuar.png}: Dirige a la pantalla de la figura \ref{IU5}
 	
 \end{itemize}
+
+%\pagebreak
+\hypertarget{IU5}{}
+\section{IU5 Método de Pago}
+
+%Descripción de la pantalla
+\noindent \textbf{Descripción de la pantalla}\\
+
+La pantalla mostrada en la figura \ref{IU5} tiene como objetivo permitir a los clientes ingresar datos necesarios para poder finalizar su compra.
+Los campos de entrada son datos necesarios para poder generar el pago y el comprobante de forma exitosa, están marcados como obligatorios.
+
+El cliente podrá interactuar en la pantalla con los diferentes botones y  como se mostrará en la pantalla correspondiente a la figura \ref{IU5}.
+
+%Pantalla del sistema
+\begin{figure}[h]
+	
+	\begin{center}				
+		
+		\includegraphics[scale=0.50]{./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU5-MetodoDePago.png}
+		\caption{IU5 Método de Pago}
+		\label{IU5}
+		
+	\end{center}
+	
+	El caso de uso \hyperlink{CU3}{CU3 Realizar Compra de Pizza}, describe de forma detallada el comportamiento asociado.
+
+	
+\end{figure}
+
+\pagebreak
+		%Acciones asociadas
+	\noindent \textbf{\\Acciones en pantalla}
+	
+	\begin{itemize}
+		
+		\item \includegraphics[scale=0.500]{imagenes/iconografia/Carrito.png}: Dirige a la pantalla \hyperlink{IU3}{IU3 Carrito de Compras}
+		\item \includegraphics[scale=0.500]{imagenes/iconografia/Menu.png}: Dirige a la pantalla de la figura \ref{IU1}
+		\item \textbf{Tarjeta:} Permite seleccionar esa opción como método de pago.
+		\item \textbf{Número de tarjeta:} Permite ingresar el número de tarjeta del cliente.
+		\item \textbf{Titular:} Permite ingresar el nombre del titular de la tarjeta agregada por el cliente.
+		\item \textbf{MM/AA:} Permite ingresar la fecha que se encuentra en la tarjeta ingresada por el cliente.
+		\item \textbf{CVC:} Permite ingresar el código de seguridad de la tarjeta ingresada por el cliente.	
+		\item \textbf{Paypal:} Permite seleccionar esa opción como método de pago.
+		\item \textbf{Efectivo:} Permite seleccionar esa opción como método de pago.
+		\item \includegraphics[scale=0.500]{imagenes/iconografia/Cancelar.png}: Dirige a la pantalla de la figura \ref{IU3}
+		\item \includegraphics[scale=0.500]{imagenes/iconografia/Regresar.png}: Dirige a la pantalla de la figura \ref{IU4}
+		\item \includegraphics[scale=0.500]{imagenes/iconografia/Continuar.png}: Dirige a la pantalla de la figura \ref{IU6}
+\end{itemize}
+
+\hypertarget{IU6}{}
+\section{IU6 Compra Exitosa}
+
+%Descripción de la pantalla
+\noindent \textbf{Descripción de la pantalla}\\
+
+La pantalla mostrada en la figura \ref{IU6} tiene como objetivo permitir a los clientes descargar el comprobante de compra que el sistestema generó.
+No se cuentan con campos de entrada.
+
+El cliente podrá interactuar en la pantalla con los diferentes botones y  como se mostrará en la pantalla correspondiente a la figura \ref{IU6}.
+
+%Pantalla del sistema
+\begin{figure}[h]
+	
+	\begin{center}				
+		
+		\includegraphics[scale=0.50]{./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU6-CompraExitosa.png}
+		\caption{IU6 Compra Exitosa}
+		\label{IU6}
+		
+	\end{center}
+	
+	El caso de uso \hyperlink{CU3}{CU3 Realizar Compra de Pizza}, describe de forma detallada el comportamiento asociado.
+	
+	%Acciones asociadas
+	\noindent \textbf{\\Acciones en pantalla}
+	
+	\begin{itemize}
+		
+		\item \includegraphics[scale=0.500]{imagenes/iconografia/Carrito.png}: Dirige a la pantalla \hyperlink{IU3}{IU3 Carrito de Compras}
+		\item \includegraphics[scale=0.500]{imagenes/iconografia/Menu.png}: Dirige a la pantalla de la figura \ref{IU1}
+		\item \includegraphics[scale=0.400]{imagenes/iconografia/Descarga.png}: Permite descargar el comprobante generado.
+	\end{itemize}
+	
+\end{figure}
 

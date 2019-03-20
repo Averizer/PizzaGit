@@ -14,16 +14,18 @@
 \BOOKMARK [1][-]{section.3.2}{Casos de uso: Pizza Colaboration}{chapter.3}% 14
 \BOOKMARK [1][-]{section.3.3}{Actores}{chapter.3}% 15
 \BOOKMARK [2][-]{subsection.3.3.1}{Cliente}{section.3.3}% 16
-\BOOKMARK [0][-]{chapter.4}{Modelo de comportamiento: Registro de solicitantes}{}% 17
+\BOOKMARK [0][-]{chapter.4}{Modelo de comportamiento: Pizza Collaboration}{}% 17
 \BOOKMARK [1][-]{section.4.1}{CU1 Seleccionar Pizza}{chapter.4}% 18
-\BOOKMARK [1][-]{section.4.2}{CU2 Ver carrito de compras}{chapter.4}% 19
-\BOOKMARK [1][-]{section.4.3}{CU3 Realizar la compra}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.2}{CU2 Ver Carrito de Compras}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.3}{CU3 Realizar la Compra}{chapter.4}% 20
 \BOOKMARK [0][-]{chapter.5}{Modelo de interacci\363n}{}% 21
 \BOOKMARK [1][-]{section.5.1}{Identidad gr\341fica}{chapter.5}% 22
 \BOOKMARK [1][-]{section.5.2}{Mensajes}{chapter.5}% 23
 \BOOKMARK [2][-]{subsection.5.2.1}{MSG1 Campos obligatorios faltantes}{section.5.2}% 24
-\BOOKMARK [0][-]{chapter.6}{Modelo de interacci\363n: Registro de solicitantes}{}% 25
+\BOOKMARK [0][-]{chapter.6}{Modelo de interacci\363n: Pizza Collaboration}{}% 25
 \BOOKMARK [1][-]{section.6.1}{IU1 Men\372 de Pizzas}{chapter.6}% 26
 \BOOKMARK [1][-]{section.6.2}{IU2 Personaliza Pizza}{chapter.6}% 27
 \BOOKMARK [1][-]{section.6.3}{IU3 Carrito de Compras}{chapter.6}% 28
 \BOOKMARK [1][-]{section.6.4}{IU4 Datos de Compra}{chapter.6}% 29
+\BOOKMARK [1][-]{section.6.5}{IU5 M\351todo de Pago}{chapter.6}% 30
+\BOOKMARK [1][-]{section.6.6}{IU6 Compra Exitosa}{chapter.6}% 31

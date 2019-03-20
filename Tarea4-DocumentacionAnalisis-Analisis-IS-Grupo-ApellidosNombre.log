@@ -1,13 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.10)  18 MAR 2019 21:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.9)  20 MAR 2019 00:21
 entering extended mode
 **./Tarea4-DocumentacionAnalisis-Analisis-IS-Grupo-ApellidosNombre.tex
 (Tarea4-DocumentacionAnalisis-Analisis-IS-Grupo-ApellidosNombre.tex
 LaTeX2e <2018-12-01>
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\report.cls
-"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\report.cls"
 Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size11.clo
-"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size11.clo"
 File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -22,36 +20,32 @@ File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.s
-ty"
+) ("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.st
+y"
 Package: babel 2018/11/13 3.27 The Babel package
 
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.
-def"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def
+"
 File: switch.def 2018/11/13 3.27 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.c
-fg"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-spanish\s
-panish.ldf"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-spanish\span
+ish.ldf"
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.d
-ef"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
 File: babel.def 2018/11/13 3.27 Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
 
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabe
-l.def")
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.d
+ef")
 \bbl@dirlevel=\count90
 )
 \es@quottoks=\toks14
@@ -61,53 +55,51 @@ Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 ))
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphi
-cx.sty"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
+sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval
-.sty"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
+y"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphi
-cs.sty"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
+sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.s
-ty"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\gr
-aphics.cfg"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
+ics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pd
-ftex.def"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
+x.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.s
-ty"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
 )
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperr
-ef.sty"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.
+sty"
 Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
 
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobs
-ub-hyperref.sty"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub-
+hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobs
-ub-generic.sty"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub-
+generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -143,32 +135,32 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxet
-ex.sty"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.
+sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\auxhoo
-k.sty"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\auxhook.s
+ty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvopti
-ons.sty"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions
+.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen106
 \Hy@linkcounter=\count92
 \Hy@pagecounter=\count93
 
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc
-.def"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.de
+f"
 File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count94
 
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperr
-ef.cfg"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperref.
+cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4519.
@@ -179,8 +171,7 @@ Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
 \c@Hy@tempcnt=\count95
-
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+ ("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -204,14 +195,14 @@ LaTeX Info: Redefining \pageref on input line 6454.
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdfte
-x.def"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.d
+ef"
 File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
 \Fld@listcount=\count100
 \c@bookmark@seq@number=\count101
 
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunf
-ilecheck.sty"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunfile
+check.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -242,8 +233,8 @@ LaTeX Font Info:    ... okay on input line 20.
 LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
 
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\sup
-p-pdf.mkii"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
+df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count102
 \scratchdimen=\dimen110
@@ -257,12 +248,12 @@ p-pdf.mkii"
 \makeMPintoPDFobject=\count107
 \everyMPtoPDFconversion=\toks19
 )
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstop
-df-base.sty"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
+base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext
-.sty"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.st
+y"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -275,12 +266,12 @@ G,.JBIG2,.JB2,.eps]
 \AtBeginShipoutBox=\box28
 Package hyperref Info: Link coloring OFF on input line 20.
 
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\namere
-f.sty"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
+ty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\gett
-itlestring.sty"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\gettitl
+estring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count108
@@ -298,9 +289,9 @@ LaTeX Info: Redefining \nameref on input line 20.
 
 (portada.tex [1
 
-{C:/Users/Emiliano/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]) (resume
-n.texpdfTeX warning (ext4): destination with the same identifier (name{page.1})
- has been already used, duplicate ignored
+{C:/Users/maryf/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]) (resumen.t
+expdfTeX warning (ext4): destination with the same identifier (name{page.1}) ha
+s been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.9 \end{abstract}
@@ -335,17 +326,6 @@ LaTeX Info: Redefining \% on input line 1.
 
 [3
 
-] (Tarea4-DocumentacionAnalisis-Analisis-IS-Grupo-ApellidosNombre.lot
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-)
-\tf@lot=\write6
-\openout6 = `Tarea4-DocumentacionAnalisis-Analisis-IS-Grupo-ApellidosNombre.lot
-'.
-
-
-[4
-
 ] (Introduccion.tex
 Cap\'{\i }tulo 1.
 ) (ModeloNegocio/negocio.texpdfTeX warning (ext4): destination with the same id
@@ -359,7 +339,7 @@ l.3 \chapter
 ]
 Cap\'{\i }tulo 2.
 (ModeloNegocio/estados.tex
-<imagenes/CiclosDeVida/cv-CuentaSolicitante.jpg, id=208, 1078.0275pt x 490.8337
+<imagenes/CiclosDeVida/cv-CuentaSolicitante.jpg, id=216, 1078.0275pt x 490.8337
 6pt>
 File: imagenes/CiclosDeVida/cv-CuentaSolicitante.jpg Graphic file (type jpg)
 <use imagenes/CiclosDeVida/cv-CuentaSolicitante.jpg>
@@ -395,7 +375,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
  []
 
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 24.
-("C:\Users\Emiliano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+("C:\Users\maryf\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
@@ -406,15 +386,15 @@ LaTeX Info: Redefining \% on input line 4.
  [5]
 Cap\'{\i }tulo 3.
 (ModeloComportamiento/modulos.tex
-<imagenes/modulos/Modulos-PizzaCollaboration.png, id=254, 656.4525pt x 397.485p
-t>
+<imagenes/modulos/Modulos-PizzaCollaboration.png, id=263, 648.4225pt x 401.5pt>
+
 File: imagenes/modulos/Modulos-PizzaCollaboration.png Graphic file (type png)
 <use imagenes/modulos/Modulos-PizzaCollaboration.png>
 Package pdftex.def Info: imagenes/modulos/Modulos-PizzaCollaboration.png  used 
 on input line 12.
-(pdftex.def)             Requested size: 393.87454pt x 238.49283pt.
+(pdftex.def)             Requested size: 389.0565pt x 240.90184pt.
 
-Overfull \hbox (33.87454pt too wide) in paragraph at lines 12--13
+Overfull \hbox (29.0565pt too wide) in paragraph at lines 12--13
  [] 
  []
 
@@ -424,16 +404,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ) (ModeloComportamiento/CasosUso.tex [6
 
 ]
-<imagenes/CUs/RegistroSolicitantes/CUs-PizzaCollaboration.png, id=260, 656.4525
-pt x 397.485pt>
+<imagenes/CUs/RegistroSolicitantes/CUs-PizzaCollaboration.png, id=269, 648.4225
+pt x 401.5pt>
 File: imagenes/CUs/RegistroSolicitantes/CUs-PizzaCollaboration.png Graphic file
  (type png)
 <use imagenes/CUs/RegistroSolicitantes/CUs-PizzaCollaboration.png>
 Package pdftex.def Info: imagenes/CUs/RegistroSolicitantes/CUs-PizzaCollaborati
 on.png  used on input line 13.
-(pdftex.def)             Requested size: 393.87454pt x 238.49283pt.
+(pdftex.def)             Requested size: 389.0565pt x 240.90184pt.
 
-Overfull \hbox (33.87454pt too wide) in paragraph at lines 13--14
+Overfull \hbox (29.0565pt too wide) in paragraph at lines 13--14
  [] 
  []
 
@@ -460,18 +440,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-
-Overfull \hbox (4.20847pt too wide) in paragraph at lines 10--11
-\OT1/cmr/m/n/10.95 de-bera in-gre-sar des-de su na-ve-ga-dor al do-mi-nio \OT1
-/cmr/bx/n/10.95 www.pizzaplaneta.com.mx
- []
-
 LaTeX Info: Redefining \. on input line 57.
 LaTeX Info: Redefining \% on input line 57.
 
-Overfull \hbox (73.66132pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10.95 CAP[]ITULO 4.  MODELO DE COMPORTAMIENTO: REGISTRO DE SOLICI
-TANTES \OT1/cmr/m/n/10.95 11
+Overfull \hbox (46.51569pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10.95 CAP[]ITULO 4.  MODELO DE COMPORTAMIENTO: PIZZA COLLABORATIO
+N \OT1/cmr/m/n/10.95 11
  []
 
 [11]
@@ -487,9 +461,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--108
 LaTeX Info: Redefining \. on input line 108.
 LaTeX Info: Redefining \% on input line 108.
 
-Overfull \hbox (73.66132pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10.95 CAP[]ITULO 4.  MODELO DE COMPORTAMIENTO: REGISTRO DE SOLICI
-TANTES \OT1/cmr/m/n/10.95 12
+Overfull \hbox (46.51569pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10.95 CAP[]ITULO 4.  MODELO DE COMPORTAMIENTO: PIZZA COLLABORATIO
+N \OT1/cmr/m/n/10.95 12
  []
 
 [12]
@@ -497,18 +471,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
-
-Overfull \hbox (4.20847pt too wide) in paragraph at lines 116--117
-\OT1/cmr/m/n/10.95 de-bera in-gre-sar des-de su na-ve-ga-dor al do-mi-nio \OT1
-/cmr/bx/n/10.95 www.pizzaplaneta.com.mx
- []
-
 LaTeX Info: Redefining \. on input line 149.
 LaTeX Info: Redefining \% on input line 149.
 
-Overfull \hbox (73.66132pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10.95 CAP[]ITULO 4.  MODELO DE COMPORTAMIENTO: REGISTRO DE SOLICI
-TANTES \OT1/cmr/m/n/10.95 13
+Overfull \hbox (46.51569pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10.95 CAP[]ITULO 4.  MODELO DE COMPORTAMIENTO: PIZZA COLLABORATIO
+N \OT1/cmr/m/n/10.95 13
  []
 
 [13]pdfTeX warning (ext4): destination with the same identifier (name{CU1:TP:P4
@@ -522,12 +490,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--158
 
  []
 
-LaTeX Info: Redefining \. on input line 196.
-LaTeX Info: Redefining \% on input line 196.
+LaTeX Info: Redefining \. on input line 201.
+LaTeX Info: Redefining \% on input line 201.
 
-Overfull \hbox (73.66132pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10.95 CAP[]ITULO 4.  MODELO DE COMPORTAMIENTO: REGISTRO DE SOLICI
-TANTES \OT1/cmr/m/n/10.95 14
+Overfull \hbox (46.51569pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10.95 CAP[]ITULO 4.  MODELO DE COMPORTAMIENTO: PIZZA COLLABORATIO
+N \OT1/cmr/m/n/10.95 14
  []
 
 [14]pdfTeX warning (ext4): destination with the same identifier (name{CU2}) has
@@ -540,19 +508,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
 
-
-Overfull \hbox (4.20847pt too wide) in paragraph at lines 209--210
-\OT1/cmr/m/n/10.95 de-bera in-gre-sar des-de su na-ve-ga-dor al do-mi-nio \OT1
-/cmr/bx/n/10.95 www.pizzaplaneta.com.mx
- []
-
 )) (ModeloInteraccion/interaccion.tex
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
 
-Overfull \hbox (73.66132pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10.95 CAP[]ITULO 4.  MODELO DE COMPORTAMIENTO: REGISTRO DE SOLICI
-TANTES \OT1/cmr/m/n/10.95 15
+Overfull \hbox (46.51569pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10.95 CAP[]ITULO 4.  MODELO DE COMPORTAMIENTO: PIZZA COLLABORATIO
+N \OT1/cmr/m/n/10.95 15
  []
 
 [15]
@@ -575,7 +537,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
  []
 
 <./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU1-MenuDePizzas.png, id
-=399, 803.25093pt x 446.41782pt>
+=404, 803.25093pt x 446.41782pt>
 File: ./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU1-MenuDePizzas.pn
 g Graphic file (type png)
 <use ./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU1-MenuDePizzas.png
@@ -588,19 +550,19 @@ Overfull \hbox (41.62448pt too wide) in paragraph at lines 19--20
  [] 
  []
 
-<imagenes/iconografia/Seleccionar.png, id=401, 113.67468pt x 37.64063pt>
+<imagenes/iconografia/Seleccionar.png, id=406, 113.67468pt x 37.64063pt>
 File: imagenes/iconografia/Seleccionar.png Graphic file (type png)
 <use imagenes/iconografia/Seleccionar.png>
 Package pdftex.def Info: imagenes/iconografia/Seleccionar.png  used on input li
 ne 35.
 (pdftex.def)             Requested size: 56.83719pt x 18.82025pt.
-<imagenes/iconografia/Carrito.png, id=403, 74.52844pt x 33.12375pt>
+<imagenes/iconografia/Carrito.png, id=408, 74.52844pt x 33.12375pt>
 File: imagenes/iconografia/Carrito.png Graphic file (type png)
 <use imagenes/iconografia/Carrito.png>
 Package pdftex.def Info: imagenes/iconografia/Carrito.png  used on input line 3
 6.
 (pdftex.def)             Requested size: 37.26411pt x 16.56183pt.
-<imagenes/iconografia/Menu.png, id=405, 60.97781pt x 30.86531pt>
+<imagenes/iconografia/Menu.png, id=410, 60.97781pt x 30.86531pt>
 File: imagenes/iconografia/Menu.png Graphic file (type png)
 <use imagenes/iconografia/Menu.png>
 Package pdftex.def Info: imagenes/iconografia/Menu.png  used on input line 37.
@@ -613,16 +575,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 LaTeX Info: Redefining \. on input line 47.
 LaTeX Info: Redefining \% on input line 47.
 
-Overfull \hbox (42.78833pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10.95 CAP[]ITULO 6.  MODELO DE INTERACCI[]ON: REGISTRO DE SOLICIT
-ANTES \OT1/cmr/m/n/10.95 19
+Overfull \hbox (15.6427pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10.95 CAP[]ITULO 6.  MODELO DE INTERACCI[]ON: PIZZA COLLABORATION
+ \OT1/cmr/m/n/10.95 19
  []
 
 [19 <./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU1-MenuDePizzas.png
 > <./imagenes/iconografia/Seleccionar.png> <./imagenes/iconografia/Carrito.png>
  <./imagenes/iconografia/Menu.png>]
 <./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU2-PersonalizaPizza.png
-, id=418, 810.02625pt x 457.71pt>
+, id=422, 810.02625pt x 457.71pt>
 File: ./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU2-PersonalizaPizz
 a.png Graphic file (type png)
 <use ./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU2-PersonalizaPizza
@@ -644,7 +606,7 @@ File: imagenes/iconografia/Carrito.png Graphic file (type png)
 Package pdftex.def Info: imagenes/iconografia/Carrito.png  used on input line 7
 3.
 (pdftex.def)             Requested size: 37.26411pt x 16.56183pt.
-<imagenes/iconografia/Tamanos.png, id=422, 90.3375pt x 33.87656pt>
+<imagenes/iconografia/Tamanos.png, id=426, 90.3375pt x 33.87656pt>
 File: imagenes/iconografia/Tamanos.png Graphic file (type png)
 <use imagenes/iconografia/Tamanos.png>
 Package pdftex.def Info: imagenes/iconografia/Tamanos.png  used on input line 7
@@ -653,39 +615,39 @@ Package pdftex.def Info: imagenes/iconografia/Tamanos.png  used on input line 7
 LaTeX Info: Redefining \. on input line 75.
 LaTeX Info: Redefining \% on input line 75.
 
-Overfull \hbox (42.78833pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10.95 CAP[]ITULO 6.  MODELO DE INTERACCI[]ON: REGISTRO DE SOLICIT
-ANTES \OT1/cmr/m/n/10.95 20
+Overfull \hbox (15.6427pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10.95 CAP[]ITULO 6.  MODELO DE INTERACCI[]ON: PIZZA COLLABORATION
+ \OT1/cmr/m/n/10.95 20
  []
 
 [20 <./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU2-PersonalizaPizza
 .png>]
-<imagenes/iconografia/Tipos.png, id=428, 67.0003pt x 31.61812pt>
+<imagenes/iconografia/Tipos.png, id=433, 67.0003pt x 31.61812pt>
 File: imagenes/iconografia/Tipos.png Graphic file (type png)
 <use imagenes/iconografia/Tipos.png>
 Package pdftex.def Info: imagenes/iconografia/Tipos.png  used on input line 75.
 
 (pdftex.def)             Requested size: 33.50006pt x 15.809pt.
-<imagenes/iconografia/Cantidad.png, id=429, 45.16875pt x 27.10126pt>
+<imagenes/iconografia/Cantidad.png, id=434, 45.16875pt x 27.10126pt>
 File: imagenes/iconografia/Cantidad.png Graphic file (type png)
 <use imagenes/iconografia/Cantidad.png>
 Package pdftex.def Info: imagenes/iconografia/Cantidad.png  used on input line 
 76.
 (pdftex.def)             Requested size: 22.5843pt x 13.55058pt.
-<imagenes/iconografia/AgregarCarrito.png, id=430, 138.5175pt x 32.37094pt>
+<imagenes/iconografia/AgregarCarrito.png, id=435, 138.5175pt x 32.37094pt>
 File: imagenes/iconografia/AgregarCarrito.png Graphic file (type png)
 <use imagenes/iconografia/AgregarCarrito.png>
 Package pdftex.def Info: imagenes/iconografia/AgregarCarrito.png  used on input
  line 77.
 (pdftex.def)             Requested size: 69.25858pt x 16.18542pt.
-<imagenes/iconografia/Cancelar.png, id=432, 85.06781pt x 29.35968pt>
+<imagenes/iconografia/Cancelar.png, id=437, 85.06781pt x 29.35968pt>
 File: imagenes/iconografia/Cancelar.png Graphic file (type png)
 <use imagenes/iconografia/Cancelar.png>
 Package pdftex.def Info: imagenes/iconografia/Cancelar.png  used on input line 
 78.
 (pdftex.def)             Requested size: 42.5338pt x 14.6798pt.
 <imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU2-1-PersonalizaPizzaMens
-aje.png, id=434, 808.52063pt x 458.46281pt>
+aje.png, id=439, 808.52063pt x 458.46281pt>
 File: imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU2-1-PersonalizaPizz
 aMensaje.png Graphic file (type png)
 <use imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU2-1-PersonalizaPizza
@@ -698,7 +660,7 @@ Overfull \hbox (44.25932pt too wide) in paragraph at lines 89--90
  [] 
  []
 
-<imagenes/iconografia/Aceptar.png, id=435, 77.53969pt x 29.35968pt>
+<imagenes/iconografia/Aceptar.png, id=440, 77.53969pt x 29.35968pt>
 File: imagenes/iconografia/Aceptar.png Graphic file (type png)
 <use imagenes/iconografia/Aceptar.png>
 Package pdftex.def Info: imagenes/iconografia/Aceptar.png  used on input line 1
@@ -712,9 +674,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--112
 LaTeX Info: Redefining \. on input line 113.
 LaTeX Info: Redefining \% on input line 113.
 
-Overfull \hbox (42.78833pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10.95 CAP[]ITULO 6.  MODELO DE INTERACCI[]ON: REGISTRO DE SOLICIT
-ANTES \OT1/cmr/m/n/10.95 21
+Overfull \hbox (15.6427pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10.95 CAP[]ITULO 6.  MODELO DE INTERACCI[]ON: PIZZA COLLABORATION
+ \OT1/cmr/m/n/10.95 21
  []
 
 [21 <./imagenes/iconografia/Tamanos.png> <./imagenes/iconografia/Tipos.png> <./
@@ -723,173 +685,313 @@ imagenes/iconografia/Cantidad.png> <./imagenes/iconografia/AgregarCarrito.png>
 IniciarSesion/IU2-1-PersonalizaPizzaMensaje.png> <./imagenes/iconografia/Acepta
 r.png>]
 <./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU3-CarritoDeCompras.png
-, id=450, 808.52063pt x 454.69875pt>
+, id=455, 808.52063pt x 454.69875pt>
 File: ./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU3-CarritoDeCompra
 s.png Graphic file (type png)
 <use ./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU3-CarritoDeCompras
 .png>
 Package pdftex.def Info: ./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/
-IU3-CarritoDeCompras.png  used on input line 122.
+IU3-CarritoDeCompras.png  used on input line 123.
 (pdftex.def)             Requested size: 404.25932pt x 227.34882pt.
 
-Overfull \hbox (44.25932pt too wide) in paragraph at lines 122--123
+Overfull \hbox (44.25932pt too wide) in paragraph at lines 123--124
  [] 
  []
 
 File: imagenes/iconografia/Menu.png Graphic file (type png)
 <use imagenes/iconografia/Menu.png>
-Package pdftex.def Info: imagenes/iconografia/Menu.png  used on input line 138.
+Package pdftex.def Info: imagenes/iconografia/Menu.png  used on input line 139.
 
 (pdftex.def)             Requested size: 30.48882pt x 15.4326pt.
 File: imagenes/iconografia/Carrito.png Graphic file (type png)
 <use imagenes/iconografia/Carrito.png>
 Package pdftex.def Info: imagenes/iconografia/Carrito.png  used on input line 1
-39.
+40.
 (pdftex.def)             Requested size: 37.26411pt x 16.56183pt.
-<imagenes/iconografia/Eliminar.png, id=454, 77.53969pt x 29.35968pt>
+<imagenes/iconografia/Eliminar.png, id=459, 77.53969pt x 29.35968pt>
 File: imagenes/iconografia/Eliminar.png Graphic file (type png)
 <use imagenes/iconografia/Eliminar.png>
 Package pdftex.def Info: imagenes/iconografia/Eliminar.png  used on input line 
-140.
+141.
 (pdftex.def)             Requested size: 38.76973pt x 14.6798pt.
-LaTeX Info: Redefining \. on input line 141.
-LaTeX Info: Redefining \% on input line 141.
+LaTeX Info: Redefining \. on input line 142.
+LaTeX Info: Redefining \% on input line 142.
 
-Overfull \hbox (42.78833pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10.95 CAP[]ITULO 6.  MODELO DE INTERACCI[]ON: REGISTRO DE SOLICIT
-ANTES \OT1/cmr/m/n/10.95 22
+Overfull \hbox (15.6427pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10.95 CAP[]ITULO 6.  MODELO DE INTERACCI[]ON: PIZZA COLLABORATION
+ \OT1/cmr/m/n/10.95 22
  []
 
 [22 <./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU3-CarritoDeCompras
 .png>]
-<imagenes/iconografia/Proceder.png, id=460, 175.40532pt x 30.1125pt>
+<imagenes/iconografia/Proceder.png, id=465, 175.40532pt x 30.1125pt>
 File: imagenes/iconografia/Proceder.png Graphic file (type png)
 <use imagenes/iconografia/Proceder.png>
 Package pdftex.def Info: imagenes/iconografia/Proceder.png  used on input line 
-141.
+142.
 (pdftex.def)             Requested size: 87.70244pt x 15.0562pt.
 <imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU3-1CarritoDeComprasQuita
-r.png, id=462, 809.27344pt x 459.21562pt>
+r.png, id=467, 809.27344pt x 459.21562pt>
 File: imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU3-1CarritoDeCompras
 Quitar.png Graphic file (type png)
 <use imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU3-1CarritoDeComprasQ
 uitar.png>
 Package pdftex.def Info: imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU
-3-1CarritoDeComprasQuitar.png  used on input line 151.
+3-1CarritoDeComprasQuitar.png  used on input line 154.
 (pdftex.def)             Requested size: 404.63573pt x 229.60724pt.
 
-Overfull \hbox (44.63573pt too wide) in paragraph at lines 151--152
+Overfull \hbox (44.63573pt too wide) in paragraph at lines 154--155
  [] 
  []
 
 File: imagenes/iconografia/Cancelar.png Graphic file (type png)
 <use imagenes/iconografia/Cancelar.png>
 Package pdftex.def Info: imagenes/iconografia/Cancelar.png  used on input line 
-163.
+166.
 (pdftex.def)             Requested size: 42.5338pt x 14.6798pt.
 File: imagenes/iconografia/Aceptar.png Graphic file (type png)
 <use imagenes/iconografia/Aceptar.png>
 Package pdftex.def Info: imagenes/iconografia/Aceptar.png  used on input line 1
-64.
+67.
 (pdftex.def)             Requested size: 38.76973pt x 14.6798pt.
 <imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU3-2CarritoDeComprasVacio
-.png, id=465, 808.52063pt x 460.72125pt>
+.png, id=470, 808.52063pt x 460.72125pt>
 File: imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU3-2CarritoDeCompras
 Vacio.png Graphic file (type png)
 <use imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU3-2CarritoDeComprasV
 acio.png>
 Package pdftex.def Info: imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU
-3-2CarritoDeComprasVacio.png  used on input line 173.
+3-2CarritoDeComprasVacio.png  used on input line 176.
 (pdftex.def)             Requested size: 404.25932pt x 230.36006pt.
 
-Overfull \hbox (44.25932pt too wide) in paragraph at lines 173--174
+Overfull \hbox (44.25932pt too wide) in paragraph at lines 176--177
  [] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<imagenes/iconografia/Seguir.png, id=466, 137.01187pt x 27.85406pt>
+<imagenes/iconografia/Seguir.png, id=471, 137.01187pt x 27.85406pt>
 File: imagenes/iconografia/Seguir.png Graphic file (type png)
 <use imagenes/iconografia/Seguir.png>
 Package pdftex.def Info: imagenes/iconografia/Seguir.png  used on input line 18
-5.
+6.
 (pdftex.def)             Requested size: 68.50577pt x 13.92699pt.
-pdfTeX warning (ext4): destination with the same identifier (name{IU1}) has bee
-n already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.191 \hypertarget{IU1}{}
-                         
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 197.
-LaTeX Info: Redefining \% on input line 197.
+LaTeX Info: Redefining \. on input line 193.
+LaTeX Info: Redefining \% on input line 193.
 
-Overfull \hbox (42.78833pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10.95 CAP[]ITULO 6.  MODELO DE INTERACCI[]ON: REGISTRO DE SOLICIT
-ANTES \OT1/cmr/m/n/10.95 23
+Overfull \hbox (15.6427pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10.95 CAP[]ITULO 6.  MODELO DE INTERACCI[]ON: PIZZA COLLABORATION
+ \OT1/cmr/m/n/10.95 23
  []
 
 [23 <./imagenes/iconografia/Eliminar.png> <./imagenes/iconografia/Proceder.png>
  <./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU3-1CarritoDeComprasQu
-itar.png> <./imagenes/iconografia/Seguir.png>]
+itar.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+
+ []
+
 <./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU4-DatosDeCompra.png, i
-d=478, 809.27344pt x 456.20438pt>
+d=482, 809.27344pt x 456.20438pt>
 File: ./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU4-DatosDeCompra.p
 ng Graphic file (type png)
 <use ./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU4-DatosDeCompra.pn
 g>
 Package pdftex.def Info: ./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/
-IU4-DatosDeCompra.png  used on input line 206.
+IU4-DatosDeCompra.png  used on input line 209.
 (pdftex.def)             Requested size: 404.63573pt x 228.10162pt.
 
-Overfull \hbox (44.63573pt too wide) in paragraph at lines 206--207
+Overfull \hbox (44.63573pt too wide) in paragraph at lines 209--210
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+LaTeX Info: Redefining \. on input line 218.
+LaTeX Info: Redefining \% on input line 218.
+
+Overfull \hbox (15.6427pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10.95 CAP[]ITULO 6.  MODELO DE INTERACCI[]ON: PIZZA COLLABORATION
+ \OT1/cmr/m/n/10.95 24
+ []
+
+[24 <./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU3-2CarritoDeCompra
+sVacio.png> <./imagenes/iconografia/Seguir.png>]
 File: imagenes/iconografia/Carrito.png Graphic file (type png)
 <use imagenes/iconografia/Carrito.png>
 Package pdftex.def Info: imagenes/iconografia/Carrito.png  used on input line 2
-23.
+24.
 (pdftex.def)             Requested size: 37.26411pt x 16.56183pt.
 File: imagenes/iconografia/Menu.png Graphic file (type png)
 <use imagenes/iconografia/Menu.png>
-Package pdftex.def Info: imagenes/iconografia/Menu.png  used on input line 224.
+Package pdftex.def Info: imagenes/iconografia/Menu.png  used on input line 225.
 
 (pdftex.def)             Requested size: 30.48882pt x 15.4326pt.
+LaTeX Info: Redefining \. on input line 233.
+LaTeX Info: Redefining \% on input line 233.
+
+Overfull \hbox (15.6427pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10.95 CAP[]ITULO 6.  MODELO DE INTERACCI[]ON: PIZZA COLLABORATION
+ \OT1/cmr/m/n/10.95 25
+ []
+
+[25 <./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU4-DatosDeCompra.pn
+g>]
+File: imagenes/iconografia/Cancelar.png Graphic file (type png)
+<use imagenes/iconografia/Cancelar.png>
+Package pdftex.def Info: imagenes/iconografia/Cancelar.png  used on input line 
+235.
+(pdftex.def)             Requested size: 42.5338pt x 14.6798pt.
+<imagenes/iconografia/Continuar.png, id=499, 88.83188pt x 31.61812pt>
+File: imagenes/iconografia/Continuar.png Graphic file (type png)
+<use imagenes/iconografia/Continuar.png>
+Package pdftex.def Info: imagenes/iconografia/Continuar.png  used on input line
+ 236.
+(pdftex.def)             Requested size: 44.41582pt x 15.809pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
+
+ []
+
+<./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU5-MetodoDePago.png, id
+=503, 807.015pt x 455.45157pt>
+File: ./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU5-MetodoDePago.pn
+g Graphic file (type png)
+<use ./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU5-MetodoDePago.png
+>
+Package pdftex.def Info: ./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/
+IU5-MetodoDePago.png  used on input line 257.
+(pdftex.def)             Requested size: 403.50652pt x 227.72522pt.
+
+Overfull \hbox (43.50652pt too wide) in paragraph at lines 257--258
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Info: Redefining \. on input line 270.
+LaTeX Info: Redefining \% on input line 270.
+
+Overfull \hbox (15.6427pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10.95 CAP[]ITULO 6.  MODELO DE INTERACCI[]ON: PIZZA COLLABORATION
+ \OT1/cmr/m/n/10.95 26
+ []
+
+[26 <./imagenes/iconografia/Continuar.png>]
+File: imagenes/iconografia/Carrito.png Graphic file (type png)
+<use imagenes/iconografia/Carrito.png>
+Package pdftex.def Info: imagenes/iconografia/Carrito.png  used on input line 2
+74.
+(pdftex.def)             Requested size: 37.26411pt x 16.56183pt.
+File: imagenes/iconografia/Menu.png Graphic file (type png)
+<use imagenes/iconografia/Menu.png>
+Package pdftex.def Info: imagenes/iconografia/Menu.png  used on input line 275.
+
+(pdftex.def)             Requested size: 30.48882pt x 15.4326pt.
+LaTeX Info: Redefining \. on input line 281.
+LaTeX Info: Redefining \% on input line 281.
+
+Overfull \hbox (15.6427pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10.95 CAP[]ITULO 6.  MODELO DE INTERACCI[]ON: PIZZA COLLABORATION
+ \OT1/cmr/m/n/10.95 27
+ []
+
+[27 <./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU5-MetodoDePago.png
+>]
+File: imagenes/iconografia/Cancelar.png Graphic file (type png)
+<use imagenes/iconografia/Cancelar.png>
+Package pdftex.def Info: imagenes/iconografia/Cancelar.png  used on input line 
+283.
+(pdftex.def)             Requested size: 42.5338pt x 14.6798pt.
+<imagenes/iconografia/Regresar.png, id=520, 88.07906pt x 28.60687pt>
+File: imagenes/iconografia/Regresar.png Graphic file (type png)
+<use imagenes/iconografia/Regresar.png>
+Package pdftex.def Info: imagenes/iconografia/Regresar.png  used on input line 
+284.
+(pdftex.def)             Requested size: 44.03941pt x 14.30339pt.
+File: imagenes/iconografia/Continuar.png Graphic file (type png)
+<use imagenes/iconografia/Continuar.png>
+Package pdftex.def Info: imagenes/iconografia/Continuar.png  used on input line
+ 285.
+(pdftex.def)             Requested size: 44.41582pt x 15.809pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
+
+ []
+
+<./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU6-CompraExitosa.png, i
+d=525, 807.015pt x 457.71pt>
+File: ./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU6-CompraExitosa.p
+ng Graphic file (type png)
+<use ./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU6-CompraExitosa.pn
+g>
+Package pdftex.def Info: ./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/
+IU6-CompraExitosa.png  used on input line 304.
+(pdftex.def)             Requested size: 403.50652pt x 228.85445pt.
+
+Overfull \hbox (43.50652pt too wide) in paragraph at lines 304--305
+ [] 
+ []
+
+File: imagenes/iconografia/Carrito.png Graphic file (type png)
+<use imagenes/iconografia/Carrito.png>
+Package pdftex.def Info: imagenes/iconografia/Carrito.png  used on input line 3
+17.
+(pdftex.def)             Requested size: 37.26411pt x 16.56183pt.
+File: imagenes/iconografia/Menu.png Graphic file (type png)
+<use imagenes/iconografia/Menu.png>
+Package pdftex.def Info: imagenes/iconografia/Menu.png  used on input line 318.
+
+(pdftex.def)             Requested size: 30.48882pt x 15.4326pt.
+<imagenes/iconografia/Descarga.png, id=529, 122.70844pt x 73.02281pt>
+File: imagenes/iconografia/Descarga.png Graphic file (type png)
+<use imagenes/iconografia/Descarga.png>
+Package pdftex.def Info: imagenes/iconografia/Descarga.png  used on input line 
+319.
+(pdftex.def)             Requested size: 49.08249pt x 29.20859pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 )) (bibliografia.tex
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 
-Overfull \hbox (42.78833pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10.95 CAP[]ITULO 6.  MODELO DE INTERACCI[]ON: REGISTRO DE SOLICIT
-ANTES \OT1/cmr/m/n/10.95 24
+Overfull \hbox (15.6427pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10.95 CAP[]ITULO 6.  MODELO DE INTERACCI[]ON: PIZZA COLLABORATION
+ \OT1/cmr/m/n/10.95 28
  []
 
-[24 <./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU3-2CarritoDeCompra
-sVacio.png>]
+[28 <./imagenes/iconografia/Regresar.png>]
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 
-Overfull \hbox (42.78833pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10.95 CAP[]ITULO 6.  MODELO DE INTERACCI[]ON: REGISTRO DE SOLICIT
-ANTES \OT1/cmr/m/n/10.95 25
+Overfull \hbox (15.6427pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10.95 CAP[]ITULO 6.  MODELO DE INTERACCI[]ON: PIZZA COLLABORATION
+ \OT1/cmr/m/n/10.95 29
  []
 
-[25 <./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU4-DatosDeCompra.pn
-g>])
+[29 <./imagenes/IUs/RegistroSolicitantes/iu1-IniciarSesion/IU6-CompraExitosa.pn
+g> <./imagenes/iconografia/Descarga.png>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
- [26
+ [30
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
- (Tarea4-DocumentacionAnalisis-Analisis-IS-Grupo-ApellidosNombre.aux
+
+(Tarea4-DocumentacionAnalisis-Analisis-IS-Grupo-ApellidosNombre.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
@@ -897,14 +999,14 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
 Package rerunfilecheck Info: File `Tarea4-DocumentacionAnalisis-Analisis-IS-Gru
 po-ApellidosNombre.out' has not changed.
-(rerunfilecheck)             Checksum: 2A660C47946625FC33F3DAAD8B57A59C;2058.
+(rerunfilecheck)             Checksum: 7DF120AE876CE0B1C2BE7A8CF907D3E5;2183.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
- 6325 strings out of 492946
- 100357 string characters out of 3124934
- 190608 words of memory out of 3000000
- 9946 multiletter control sequences out of 15000+200000
+ 6359 strings out of 492946
+ 101032 string characters out of 3126267
+ 190699 words of memory out of 3000000
+ 9969 multiletter control sequences out of 15000+200000
  11062 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,7n,31p,579b,662s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -913,6 +1015,9 @@ es not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{CU1:TP:P2} has been referenced but does not exist, 
 replaced by a fixed one
+
+pdfTeX warning (dest): name{CU3} has been referenced but does not exist, replac
+ed by a fixed one
 
 pdfTeX warning (dest): name{CU2.1} has been referenced but does not exist, repl
 aced by a fixed one
@@ -926,27 +1031,23 @@ st, replaced by a fixed one
 pdfTeX warning (dest): name{CU1.1} has been referenced but does not exist, repl
 aced by a fixed one
 
-pdfTeX warning (dest): name{A:Pizza\040Customer} has been referenced but does n
-ot exist, replaced by a fixed one
-
-<C:/Users/Emiliano/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmbx10.pfb><C:/Users/Emiliano/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Emiliano/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Emiliano/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Emil
-iano/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-><C:/Users/Emiliano/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb><C:/Users/Emiliano/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr17.pfb><C:/Users/Emiliano/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/Emiliano/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Emilia
-no/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-<C:/Users/Emiliano/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmti12.pfb>
+<C:/Users/maryf/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb><C:/Users/maryf/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb><C:/Users/maryf/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/maryf/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/maryf/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/mary
+f/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
+:/Users/maryf/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr17.pfb><C:/Users/maryf/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmsl10.pfb><C:/Users/maryf/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/maryf/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/maryf/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 Output written on Tarea4-DocumentacionAnalisis-Analisis-IS-Grupo-ApellidosNombr
-e.pdf (32 pages, 707479 bytes).
+e.pdf (35 pages, 771649 bytes).
 PDF statistics:
- 563 PDF objects out of 1000 (max. 8388607)
- 133 named destinations out of 1000 (max. 500000)
- 343 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 614 PDF objects out of 1000 (max. 8388607)
+ 142 named destinations out of 1000 (max. 500000)
+ 384 words of extra memory for PDF output out of 10000 (max. 10000000)
 
