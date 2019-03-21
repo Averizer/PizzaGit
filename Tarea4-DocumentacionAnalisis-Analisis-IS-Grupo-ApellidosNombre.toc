@@ -19,16 +19,17 @@
 \contentsline {section}{\numberline {4.1}CU1 Seleccionar Pizza}{11}{section.4.1}% 
 \contentsline {section}{\numberline {4.2}CU2 Ver Carrito de Compras}{13}{section.4.2}% 
 \contentsline {section}{\numberline {4.3}CU3 Realizar la Compra}{15}{section.4.3}% 
-\contentsline {chapter}{\numberline {5}Modelo de interacci\IeC {\'o}n}{16}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Identidad gr\IeC {\'a}fica}{16}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Mensajes}{17}{section.5.2}% 
-\contentsline {subsection}{\numberline {5.2.1}MSG1 Campos Obligatorios Faltantes}{17}{subsection.5.2.1}% 
-\contentsline {subsection}{\numberline {5.2.2}MSG2 Pizza Agregada Exitosamente}{17}{subsection.5.2.2}% 
-\contentsline {subsection}{\numberline {5.2.3}MSG3 Advertencia}{18}{subsection.5.2.3}% 
-\contentsline {chapter}{\numberline {6}Modelo de interacci\IeC {\'o}n: Pizza Collaboration}{19}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}IU1 Men\IeC {\'u} de Pizzas}{20}{section.6.1}% 
-\contentsline {section}{\numberline {6.2}IU2 Personaliza Pizza}{21}{section.6.2}% 
-\contentsline {section}{\numberline {6.3}IU3 Carrito de Compras}{23}{section.6.3}% 
-\contentsline {section}{\numberline {6.4}IU4 Datos de Compra}{25}{section.6.4}% 
-\contentsline {section}{\numberline {6.5}IU5 M\IeC {\'e}todo de Pago}{27}{section.6.5}% 
-\contentsline {section}{\numberline {6.6}IU6 Compra Exitosa}{29}{section.6.6}% 
+\contentsline {section}{\numberline {4.4}CU4 Seleccionar m\IeC {\'e}todo de pago}{17}{section.4.4}% 
+\contentsline {chapter}{\numberline {5}Modelo de interacci\IeC {\'o}n}{21}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Identidad gr\IeC {\'a}fica}{21}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Mensajes}{22}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}MSG1 Campos Obligatorios Faltantes}{22}{subsection.5.2.1}% 
+\contentsline {subsection}{\numberline {5.2.2}MSG2 Pizza Agregada Exitosamente}{22}{subsection.5.2.2}% 
+\contentsline {subsection}{\numberline {5.2.3}MSG3 Advertencia}{23}{subsection.5.2.3}% 
+\contentsline {chapter}{\numberline {6}Modelo de interacci\IeC {\'o}n: Pizza Collaboration}{24}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}IU1 Men\IeC {\'u} de Pizzas}{25}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}IU2 Personaliza Pizza}{26}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}IU3 Carrito de Compras}{28}{section.6.3}% 
+\contentsline {section}{\numberline {6.4}IU4 Datos de Compra}{30}{section.6.4}% 
+\contentsline {section}{\numberline {6.5}IU5 M\IeC {\'e}todo de Pago}{32}{section.6.5}% 
+\contentsline {section}{\numberline {6.6}IU6 Compra Exitosa}{34}{section.6.6}% 
