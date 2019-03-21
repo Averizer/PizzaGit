@@ -21,11 +21,13 @@
 \BOOKMARK [0][-]{chapter.5}{Modelo de interacci\363n}{}% 21
 \BOOKMARK [1][-]{section.5.1}{Identidad gr\341fica}{chapter.5}% 22
 \BOOKMARK [1][-]{section.5.2}{Mensajes}{chapter.5}% 23
-\BOOKMARK [2][-]{subsection.5.2.1}{MSG1 Campos obligatorios faltantes}{section.5.2}% 24
-\BOOKMARK [0][-]{chapter.6}{Modelo de interacci\363n: Pizza Collaboration}{}% 25
-\BOOKMARK [1][-]{section.6.1}{IU1 Men\372 de Pizzas}{chapter.6}% 26
-\BOOKMARK [1][-]{section.6.2}{IU2 Personaliza Pizza}{chapter.6}% 27
-\BOOKMARK [1][-]{section.6.3}{IU3 Carrito de Compras}{chapter.6}% 28
-\BOOKMARK [1][-]{section.6.4}{IU4 Datos de Compra}{chapter.6}% 29
-\BOOKMARK [1][-]{section.6.5}{IU5 M\351todo de Pago}{chapter.6}% 30
-\BOOKMARK [1][-]{section.6.6}{IU6 Compra Exitosa}{chapter.6}% 31
+\BOOKMARK [2][-]{subsection.5.2.1}{MSG1 Campos Obligatorios Faltantes}{section.5.2}% 24
+\BOOKMARK [2][-]{subsection.5.2.2}{MSG2 Pizza Agregada Exitosamente}{section.5.2}% 25
+\BOOKMARK [2][-]{subsection.5.2.3}{MSG3 Advertencia}{section.5.2}% 26
+\BOOKMARK [0][-]{chapter.6}{Modelo de interacci\363n: Pizza Collaboration}{}% 27
+\BOOKMARK [1][-]{section.6.1}{IU1 Men\372 de Pizzas}{chapter.6}% 28
+\BOOKMARK [1][-]{section.6.2}{IU2 Personaliza Pizza}{chapter.6}% 29
+\BOOKMARK [1][-]{section.6.3}{IU3 Carrito de Compras}{chapter.6}% 30
+\BOOKMARK [1][-]{section.6.4}{IU4 Datos de Compra}{chapter.6}% 31
+\BOOKMARK [1][-]{section.6.5}{IU5 M\351todo de Pago}{chapter.6}% 32
+\BOOKMARK [1][-]{section.6.6}{IU6 Compra Exitosa}{chapter.6}% 33

@@ -5,22 +5,64 @@
 
 	%Definición de mensaje
 	\hypertarget{MSG1:CamposObligatorios}{}
-	\subsection{MSG1 Campos obligatorios faltantes}
+	\subsection{MSG1 Campos Obligatorios Faltantes}
 
 		\begin{itemize}
 
-			\item \textit{Tipo:} Error
+			\item \textit{Tipo:} Error.
 
-			\item\textit{Ubicación:}  Debajo de cada campo marcado como obligatorio donde no se proporcionó información
+			\item\textit{Ubicación:}  Debajo de cada campo marcado como obligatorio donde no se proporcionó información.
 
-			\item \textit{Objetivo:} Notificar al actor la omisión de uno o más campos marcados como obligatorios
+			\item \textit{Objetivo:} Notificar al cliente la omisión de uno o más campos marcados como obligatorios.
 
-			\item \textit{Redacción:} El campo \textbf{CAMPO} es obligatorio
+			\item \textit{Redacción:} El campo \textbf{CAMPO} es obligatorio.
 
-			\item \textit{Parámetros:} \textbf{CAMPO} es el nombre del campo obligatorio que ha sido omitido
+			\item \textit{Parámetros:} \textbf{CAMPO} es el nombre del campo obligatorio que ha sido omitido.
 
-			\item \textit{Ejemplo:} Suponga que el campo \textbf{Usuario} es obligatorio y se omite en el ingreso de información. El sistema deberá mostrar debajo de la petición de dicho campo el mensaje: \textbf{El campo Usuario es obligatorio}
+			\item \textit{Ejemplo:} Suponga que el campo \textbf{Nombre} es obligatorio y se omite en el ingreso de información. El sistema deberá mostrar debajo de la petición de dicho campo el mensaje: \textbf{El campo Nombre es obligatorio}.
 
-			\item \textit{Referenciado por:} \hyperlink{CU1}{CU1 Iniciar sesión}
+			\item \textit{Referenciado por:} \hyperlink{CU4}{CU4 Confirmar datos de compra}.
 
 		\end{itemize}
+	
+\hypertarget{MSG2:PizzaAgregada}{}
+\subsection{MSG2 Pizza Agregada Exitosamente}
+
+\begin{itemize}
+	
+	\item \textit{Tipo:} Informativo.
+	
+	\item\textit{Ubicación:}  En el momento en el que una pizza quede registrada en el carrito de compras, el sistema lanzará una ventana modal.
+	
+	\item \textit{Objetivo:} Notificar al cliente de que su pizza se agregó correctamente.
+	
+	\item \textit{Redacción:} El elemento \textbf{ELEMENTO} se agregó correctamente.
+	
+	\item \textit{Parámetros:} \textbf{ELEMENTO} es el nombre del objeto que se agregó al carrito de compras.
+	
+	\item \textit{Ejemplo:} Suponga que el cliente agregó una \textbf{Pizza} al carrito de compras. El sistema deberá mostrar mediante una ventana modal el siguiente mensaje: \textbf{Pizza agregada correctamente}.
+	
+	\item \textit{Referenciado por:} \hyperlink{CU3}{CU3 Realizar la compra}
+	
+\end{itemize}
+
+\hypertarget{MSG3:Advertencia}{}
+\subsection{MSG3 Advertencia}
+
+\begin{itemize}
+	
+	\item \textit{Tipo:} Decisión.
+	
+	\item\textit{Ubicación:}  En el momento en el que se desee eliminar alguna pizza del carrito de compras, el sistema lanzará una ventana modal.
+	
+	\item \textit{Objetivo:} Notificar al cliente de que está a punto de eliminar uno de los elementos de su carrito de compras.
+	
+	\item \textit{Redacción:} Seguro deseas eliminar el elemento \textbf{ELEMENTO}.
+	
+	\item \textit{Parámetros:} \textbf{ELEMENTO} es el nombre del objeto que será eliminado del carrito de compras.
+	
+	\item \textit{Ejemplo:} Suponga que el cliente desea eliminar una \textbf{Pizza} dexl carrito de compras. El sistema deberá mostrar mediante una ventana modal el siguiente mensaje: \textbf{¿Seguro deseas quitar la pizza?}.
+	
+	\item \textit{Referenciado por:} \hyperlink{CU2}{CU2 Ver Carrito de Compras}
+	
+\end{itemize}
