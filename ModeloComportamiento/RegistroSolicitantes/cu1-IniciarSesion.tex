@@ -17,10 +17,10 @@
 			\item \textit{Actor(es):} \hyperlink{A:Cliente}{Cliente}
 			\item \textit{Precondiciones:} Que el \hyperlink{A:Cliente}{Cliente} tenga acceso a internet. 
 			\item \textit{Postcondiciones:} El \hyperlink{A:Cliente}{Cliente} podrá ingresar al sistema para realizar las actividades que su rol le permite.
-			\item \textit{Ciclos de vida:} ??
+			\item \textit{Ciclos de vida:} No aplica.
 			\item \textit{Reglas de negocio:} ??
-			\item \textit{Mensajes:} ??
-			\item \textit{Viene de:} No aplica
+			\item \textit{Mensajes:} MSG1 Campos Obligatorios Faltantes y MSG2 Pizza Agregada Exitosamente.
+			\item \textit{Viene de:} No aplica.
 
 		\end{itemize} 
 
@@ -30,17 +30,21 @@
 		\begin{enumerate}
 			\item {\textbf{Actor.}} Ingresa la dirección electrónica de la pizzería en su navegador.
 			
-			\item \textbf{Sistema.} Muestra la pantalla \textbf{IU1 Menú de pizza} descrita en \hyperlink{IU1}{IU1 Menú de pizza}.
+			\item \hypertarget{CU1:TP:P2}{\textbf{Sistema.}} Muestra la pantalla \textbf{IU1 Menú de pizza} descrita en \hyperlink{IU1}{IU1 Menú de pizza}.
 			
 			\item \textbf{Actor.} Selecciona una de las opciones que se encuentran en la pantalla.\hyperlink{CU1:TAA}{Trayectoria alternativa A},\hyperlink{CU1:TAB}{Trayectoria alternativa B}. 
 			
-			\item \hypertarget{CU1:TP:P4}{\textbf{Sistema.}} Muestra la pantalla  \textbf{IU2 Personaliza pizza} descrita en \hyperlink{IU2}{IU2 Personaliza Pizza}
+			\item \textbf{Sistema.} Muestra la pantalla  \textbf{IU2 Personaliza Pizza} descrita en \hyperlink{IU2}{IU2 Personaliza Pizza}
 			
-			\item \textbf{Actor.} Selecciona el tamaño y la masa que desea. \hyperlink{CU1:TAC}{Trayectoria alternativa C.}
+			\item \textbf{Actor.} Selecciona el tamaño, la masa y la cantidad que desea. \hyperlink{CU1:TAC}{Trayectoria alternativa C.}
 			
 			\item  \hypertarget{CU1:TP:P6}{\textbf{Actor.}} Da click en el botón \textbf{Agregar al carrito}.
 			
-			\item \textbf{Sistema.} Muestra la pantalla \textbf{IU1 Agregar otra}.
+			\item \hypertarget{CU1:TP:P7}{\textbf{Sistema.}} Muestra el mensaje \textbf{MSG2 Pizza Agregada Exitosamente} descrito en \hyperlink{MSG2:PizzaAgregada}{MSG2 Pizza Agregada Exitosamente} .
+			
+			\item \textbf{Actor.} Da click en el botón \textbf{Aceptar}. 
+			
+			\item Regresa al paso \hyperlink{CU1:TP:P2}{2} de la trayectoria principal. 
 			
 			
 		\end{enumerate}	
@@ -54,7 +58,7 @@
 		%Trayectoria alternativa
 		\item \hypertarget{CU1:TAA}{Trayectoria alternativa A}
 
-			\noindent \textbf{Condición:} El actor no seleccionó una de las opciones mostradas en la pantalla, sin embargo dio click en el botón de menú en la pantalla \textbf{IU1 Inicio}.
+			\noindent \textbf{Condición:} El actor no seleccionó una de las opciones mostradas en la pantalla, sin embargo dio click en el botón de menú en la pantalla \textbf{IU1 Menú de Pizzas}.
 			
 			\begin{enumerate}
 				\item \textbf{Actor.} Da click en el botón \textbf{Menú}.
@@ -66,11 +70,11 @@
 			%Trayectoria alternativa
 			\item \hypertarget{CU1:TAB}{Trayectoria alternativa B}
 			
-			\noindent \textbf{Condición:} El actor no seleccionó una de las opciones mostradas en la pantalla, sin embargo dio click en el botón de Carrito \textbf{IU3 Carrito de compras}.
+			\noindent \textbf{Condición:} El actor no seleccionó una de las opciones mostradas en la pantalla, sin embargo dio click en el botón de Carrito.
 			
 			\begin{enumerate}
 				\item \textbf{Actor.} Da click en el botón \textbf{Carrito}.
-				\item \textbf{Sistema.} Muestra en pantalla \hyperlink{IU3}{\textbf{IU3 Carrito de compras}}
+				\item \textbf{Sistema.} Muestra en pantalla \hyperlink{IU3}{\textbf{IU3 Carrito de Compras}}
 			\end{enumerate}
 			
 			Fin de la trayectoria alternativa
@@ -78,18 +82,18 @@
 		%Trayectoria alternativa
 		\item \hypertarget{CU1:TAC}{Trayectoria alternativa c}
 			
-			\noindent \textbf{Condición:} El actor no seleccionó tamaño de pizza o tipo de masa.
+			\noindent \textbf{Condición:} El actor no seleccionó tamaño de pizza o tipo de masa o cantidad deseada.
 			
 			\begin{enumerate}
 				\item \textbf{Actor.} Selecciona el botón \textbf{Agregar al carrito} sin seleccionar ninguna opción. 
 				
 				\item \textbf{Sistema.} Verifica la regla de negocio \textbf{RN:S2:SelecciónRequerida}.
 				
-				\item \textbf{Sistema.} Muestra en pantalla el mensaje \hyperlink{MSG:SeleccionarOpcion}{\textbf{MSG1-Seleccionar una opción}}. 
+				\item \textbf{Sistema.} Muestra en pantalla el mensaje \textbf{MSG1 Campos Obligatorios Faltantes} descrito en \hyperlink{MSG1:CamposObligatorios}{\textbf{MSG1 Campos Obligatorios Faltantes}}. 
 				
-				\item \textbf{Actor.} Da click en \textbf{Aceptar}.
+				\item \textbf{Actor.} Agrega los campos faltantes.
 				
-				\item \hypertarget{CU1:TAB:P4} {\textbf{Sistema.}} Regresa al paso 4 de la trayectoria principal.
+				\item \textbf{Sistema.} Regresa al paso \hyperlink{CU1:TP:P7}{7} de la trayectoria principal.
 	
 			\end{enumerate}
 			
@@ -102,18 +106,27 @@
 	\noindent \textbf{\\Puntos de extensión}\\
 
 		%Punto de extención
-		\noindent \textit{Causa de la extensión:} El actor debe seleccioanr sus datos al sistema.\\
-		\textit{Región de la trayectoria:} Paso \hyperlink{CU1:TAB:P4}{4} de la trayectoria alternativa B.\\
-		\textit{Extiende a:} \hyperlink{CU2.1}{CU2.1 Ingresar datos del cliente}\\
+		\noindent \textit{Causa de la extensión:} No aplica.\\
+		\textit{Región de la trayectoria:} No aplica.\\
+		\textit{Extiende a:} No aplica.\\
 
 		
+	%Puntos de inclusión
+	\noindent \textbf{\\Puntos de inclusión}\\
+	
+		%Punto de inclusión
+		\noindent \textit{Causa de la inclusión:} No aplica.\\
+		\textit{Región de la trayectoria:} No aplica.\\
+		\textit{Incluye a:} No aplica.\\
+
+
 \hypertarget{CU2}{}
 \section{CU2 Ver Carrito de Compras}
 
 %Resumen
 \noindent \textbf{Resumen}\\
 
-Para que el cliente pueda acceder al módulo de ver carrito de compras, deberá dar click al botón carrito que se enucuentra en la pantalla principal del sistema.
+Para que el cliente pueda acceder al módulo de ver carrito de compras, deberá dar click al botón carrito que se encuentra en la pantalla principal del sistema.
 
 %Atributos
 \noindent \textbf{\\Atributos}
@@ -123,9 +136,9 @@ Para que el cliente pueda acceder al módulo de ver carrito de compras, deberá 
 	\item \textit{Actor(es):} \hyperlink{A:Cliente}{Cliente}
 	\item \textit{Precondiciones:} Que el \hyperlink{A:Cliente}{Cliente} tenga acceso a internet. 
 	\item \textit{Postcondiciones:} El \hyperlink{A:Cliente}{Cliente} podrá gestionar sus carrito de compras.
-	\item \textit{Ciclos de vida:} ?? 
+	\item \textit{Ciclos de vida:} No aplica. 
 	\item \textit{Reglas de negocio:} ??
-	\item \textit{Mensajes:} ??
+	\item \textit{Mensajes:} MSG3 Advertencia.
 	\item \textit{Viene de:} No aplica.
 	
 \end{itemize} 
@@ -137,14 +150,14 @@ Para que el cliente pueda acceder al módulo de ver carrito de compras, deberá 
 	
 	\item {\textbf{Actor.}} Estando dentro del sistema da click en el botón de \textbf{Carrito}.
 	
-	\item \hypertarget{CU2:TP:P4}{\textbf{Sistema.}} Muestra la pantalla \textbf{IU3 Carrito de compras} descrita en \hyperlink{IU3}{IU3 Carrito de compras}.
+	\item \hypertarget{CU2:TP:P4}{\textbf{Sistema.}} Muestra la pantalla \textbf{IU3 Carrito de Compras} descrita en \hyperlink{IU3}{IU3 Carrito de Compras}.
 	
-	\item \textbf{Actor.} El actor da click en el botón  Proceder con la compra.
+	\item \textbf{Actor.} El actor da click en el botón  \textbf{Proceder con la compra}.
 	\\ \hyperlink{CU2:TAA}{Trayectoria alternativa A}.
 	\\ \hyperlink{CU2:TAB}{Trayectoria alternativa B}. 
 	\\ \hyperlink{CU2:TAC}{Trayectoria alternativa C}. 
 	
-	\item \hypertarget{CU1:TP:P4}{\textbf{Sistema.}} Extiende el caso de uso \textbf{CU3 Realizar compra de la pizza}, muestra \textbf{IU4 Datos personales}.
+	\item \hypertarget{CU1:TP:P4}{\textbf{Sistema.}} Extiende al caso de uso \textbf{CU3 Realizar la Compra}, muestra \textbf{IU4 Datos de Compra}.
 	
 
 \end{enumerate}	
@@ -158,7 +171,7 @@ Fin de la trayectoria principal
 	%Trayectoria alternativa
 	\item \hypertarget{CU2:TAA}{Trayectoria alternativa A}
 	
-	\noindent \textbf{Condición:} El actor selecciono el botón de \textbf{carrito} en la pantalla \textbf{IU3 Carrito de compras}.
+	\noindent \textbf{Condición:} El actor seleccionó el botón de \textbf{Carrito} en la pantalla \textbf{IU3 Carrito de Compras}.
 	
 	\begin{enumerate}
 		\item \textbf{Actor.} Da click en el botón \textbf{Carrito}.
@@ -170,13 +183,13 @@ Fin de la trayectoria principal
 	%Trayectoria alternativa
 	\item \hypertarget{CU2:TAB}{Trayectoria alternativa B}
 	
-	\noindent \textbf{Condición:} El actor selecciono cualquiera de los botones \textbf{eliminar} en la pantalla \textbf{IU3 Carrito de compras}.
+	\noindent \textbf{Condición:} El actor seleccionó cualquiera de los botones \textbf{Eliminar} en la pantalla \textbf{IU3 Carrito de compras}.
 	
 	\begin{enumerate}
 		\item \textbf{Actor.} Da click en cualquiera de los botones  \textbf{Eliminar}.
-		\item \textbf{Sistema.}Muestra una alerta en pantalla con dos opciones, \textbf{cancelar} y \textbf{aceptar}.
-		\\ \textbf{Cancelar}, regresa al paso \hyperlink{CU2:TP:P4}{4} de la trayectoria principal.
-		\\ \textbf{Aceptar} continua la trayectoria.
+		\item \textbf{Sistema.}Muestra en pantalla el mensaje \textbf{MSG3 Advertencia} descrito en \hyperlink{MSG3:Advertencia}{\textbf{MSG3 Advertencia}} con dos opciones, \textbf{Cancelar} y \textbf{Aceptar}.
+		\\ \textbf{Cancelar}: Regresa al paso \hyperlink{CU2:TP:P4}{4} de la trayectoria principal.
+		\\ \textbf{Aceptar}: Continua la trayectoria.
 		\item \textbf{Sistema.}Elimina la fila de la tabla en la cual se dio el click.
 		\item \textbf{Sistema.}Recarga la pagina con la tabla actualizada del carrito de compras.
 	\end{enumerate}
@@ -186,16 +199,33 @@ Fin de la trayectoria principal
 	%Trayectoria alternativa
 	\item \hypertarget{CU2:TAC}{Trayectoria alternativa C}
 	
-	\noindent \textbf{Condición:} El actor selecciono el botón \textbf{Menú} o el botón \textbf{Seguir comprando} en la pantalla \textbf{IU3 Carrito de compras}.
+	\noindent \textbf{Condición:} El actor selecciono el botón \textbf{Menú} o el botón \textbf{Seguir Comprando} en la pantalla \textbf{IU3 Carrito de compras}.
 	
 	\begin{enumerate}
-		\item \textbf{Actor.} Da click en botón \textbf{Menú} o el botón \textbf{Seguir comprando}.
-		\item \textbf{Sistema.} Muestra la pantalla \textbf{IU1 Inicio}.
+		\item \textbf{Actor.} Da click en botón \textbf{Menú} o el botón \textbf{Seguir Comprando}.
+		\item \textbf{Sistema.} Muestra la pantalla \textbf{IU1 Menú de Pizzas}.
 	\end{enumerate}
 	
 	Fin de la trayectoria alternativa
 
 \end{itemize}
+
+%Puntos de extención
+\noindent \textbf{\\Puntos de extensión}\\
+
+%Punto de extención
+\noindent \textit{Causa de la extensión:} El actor debe ingresar al sistema los datos necesarios para continuar con la compra.\\
+\textit{Región de la trayectoria:} El CU2 extiende al CU3 en el punto \hyperlink{CU2:TP:P4}{4} de la trayectoria principal. \\
+\textit{Extiende a:} \textbf{CU3 Realizar la compra}.\\
+
+
+%Puntos de inclusión
+\noindent \textbf{\\Puntos de inclusión}\\
+
+%Punto de inclusión
+\noindent \textit{Causa de la inclusión:} No aplica.\\
+\textit{Región de la trayectoria:} No aplica.\\
+\textit{Incluye a:} No aplica.\\
 
 \hypertarget{CU3}{}
 \section{CU3 Realizar la Compra}
@@ -213,9 +243,9 @@ El cliente decidió proseguir con la compra por lo que ahora debe proporcionar s
 	\item \textit{Actor(es):} \hyperlink{A:Cliente}{Cliente}
 	\item \textit{Precondiciones:} Que el \hyperlink{A:Cliente}{Cliente} haya agregado al carrito de compras al menos una pizza.
 	\item \textit{Postcondiciones:} El \hyperlink{A:Cliente}{Cliente} tendrá que seleccionar una forma de pago para terminar la compra.
-	\item \textit{Ciclos de vida:} ?? 
+	\item \textit{Ciclos de vida:} No aplica.
 	\item \textit{Reglas de negocio:} ??
-	\item \textit{Mensajes:} ??
+	\item \textit{Mensajes:} MSG1 Campos Obligatorios Faltantes.
 	\item \textit{Viene de:} No aplica.
 	
 \end{itemize} 
@@ -228,13 +258,13 @@ El cliente decidió proseguir con la compra por lo que ahora debe proporcionar s
 	\\ El actor también puede regresar a agregar más pizza. \hyperlink{CU3:TAA}{Trayectoria alternativa B}.
 	\\
 	
-	\item {\textbf{Actor.}} Da click en continuar.
+	\item {\textbf{Actor.}} Da click en \textbf{Continuar}.
 	
 	\item \textbf{Sistema.} Verifica que se cumpla la regla de negocio \textbf{RN Campos obligatorios} descrita en el apartado de \hyperlink{RN}{\textbf{Reglas de negocio}}, de haber un problema pasa a la \hyperlink{CU3:TAC}{Trayectoria alternativa C}.
 	\\Después revisa que se cumpla la regla de negocio \textbf{RN Textos bien escritos}. \hyperlink{CU3:TAD}{Trayectoria alternativa D}
 	\\Si no hay problemas continua con la trayectoria principal.
 	
-	\item \textbf{Sistema.} Incluye el caso de uso \textbf{CU4 Seleccionar método de pago}.
+	\item \hypertarget{CU3:TP:P4}{\textbf{Sistema.}} Incluye el caso de uso \textbf{CU4 Seleccionar Método de Pago}.
 	
 	
 \end{enumerate}	
@@ -246,11 +276,11 @@ Fin de la trayectoria principal
 	%Trayectoria alternativa
 	\item \hypertarget{CU3:TAA}{Trayectoria alternativa A}
 	
-	\noindent \textbf{Condición:} El actor quiere cancelar la compra, por lo que procede a presionar el botón \textbf{cancelar} en la pantalla \textbf{IU4 Carrito de compras}, si el actor presiona el botón \textbf{Carrito} hace la misma acción.
+	\noindent \textbf{Condición:} El actor quiere cancelar la compra, por lo que procede a presionar el botón \textbf{Cancelar} en la pantalla \textbf{IU3 Carrito de Compras}, si el actor presiona el botón \textbf{Carrito} hace la misma acción.
 	
 	\begin{enumerate}
 		\item \textbf{Actor.} Da click en el botón \textbf{Carrito} o el botón \textbf{Menú}.
-		\item \textbf{Sistema.} Muestra la pantalla \textbf{IU3 Carrito de compras}.
+		\item \textbf{Sistema.} Muestra la pantalla \textbf{IU3 Carrito de Compras}.
 	\end{enumerate}
 	
 	Fin de la trayectoria alternativa
@@ -258,11 +288,11 @@ Fin de la trayectoria principal
 	%Trayectoria alternativa
 	\item \hypertarget{CU3:TAB}{Trayectoria alternativa B}
 	
-	\noindent \textbf{Condición:} El actor quiere agregar más pizza por lo presiona el botón \textbf{Menú}.
+	\noindent \textbf{Condición:} El actor quiere agregar más pizza por lo que presiona el botón \textbf{Menú}.
 	
 	\begin{enumerate}
 		\item \textbf{Actor.} Da click en el botón \textbf{Menú}.
-		\item \textbf{Sistema.} Muestra la pantalla \textbf{IU1 Menú}.
+		\item \textbf{Sistema.} Muestra la pantalla \textbf{IU1 Menú de Pizzas }.
 	\end{enumerate}
 	
 	Fin de la trayectoria alternativa
@@ -274,22 +304,39 @@ Fin de la trayectoria principal
 	
 	\begin{enumerate}
 		\item \textbf{Actor.} Da click en continuar sin haber completado todos los datos obligatorios.
-		\item \textbf{Sistema.} Muestra el mensaje \textbf{MSG Campos obligatorios} en la pantalla.
-		\item \textbf{Actor.} Da click en aceptar al mensaje.
-		\item \textbf{Sistema.} Muestra la pantalla \textbf{IU4 Datos de compra}.
+		\item \textbf{Sistema.} Muestra el mensaje \hyperlink{MSG1:CamposObligatorios}{MSG1 Campos Obligatorios Faltantes} en la pantalla.
+		\item \textbf{Actor.} Da click en \textbf{Aceptar} al mensaje.
+		\item \textbf{Sistema.} Muestra la pantalla \textbf{IU4 Datos de Compra}.
 	\end{enumerate}
 	
 	Fin de la trayectoria alternativa
 	
 \end{itemize}
 
+%Puntos de extención
+\noindent \textbf{\\Puntos de extensión}\\
+
+%Punto de extención
+\noindent \textit{Causa de la extensión:} No aplica.\\
+\textit{Región de la trayectoria:} No aplica.\\
+\textit{Extiende a:} No aplica.\\
+
+
+%Puntos de inclusión
+\noindent \textbf{\\Puntos de inclusión}\\
+
+%Punto de inclusión
+\noindent \textit{Causa de la inclusión:} El cliente debe seleccionar un método de pago para poder continuar con su compra.\\
+\textit{Región de la trayectoria:} El CU3 incluye al CU4 en el punto \hyperlink{CU3:TP:P4}{4} de la trayectoria principal. \\
+\textit{Incluye a:} \textbf{CU4 Seleccionar Método de Pago}.\\
+
 \hypertarget{CU4}{}
-\section{CU4 Seleccionar método de pago}
+\section{CU4 Seleccionar Método de Pago}
 
 %Resumen
 \noindent \textbf{Resumen}\\
 
-El cliente quiere finalizar la compra por lo que debe seleccionar un método de pago para concluir.
+El cliente quiere finalizar la compra por lo que debe seleccionar un método de pago para concluir con el proceso.
 
 %Atributos
 \noindent \textbf{\\Atributos}
@@ -299,10 +346,10 @@ El cliente quiere finalizar la compra por lo que debe seleccionar un método de 
 	\item \textit{Actor(es):} \hyperlink{A:Cliente}{Cliente}
 	\item \textit{Precondiciones:} Que el \hyperlink{A:Cliente}{Cliente} haya registrado exitosamente los datos personales.
 	\item \textit{Postcondiciones:} El \hyperlink{A:Cliente}{Cliente} obtendrá un comprobante de compra con el cual puede recibir su pizza.
-	\item \textit{Ciclos de vida:} ?? 
+	\item \textit{Ciclos de vida:} No aplica.
 	\item \textit{Reglas de negocio:} ??
-	\item \textit{Mensajes:} ??
-	\item \textit{Viene de:} \textbf{CU3 Realizar pizza}.
+	\item \textit{Mensajes:} MSG1 Campos Obligatorios Faltantes y MSG4 Formato.
+	\item \textit{Viene de:} \textbf{CU3 Realizar la Compra}.
 	
 \end{itemize} 
 
@@ -321,7 +368,7 @@ El cliente quiere finalizar la compra por lo que debe seleccionar un método de 
 	
 	\item {\textbf{Actor.}} \hypertarget{p5}{}Da click en continuar.
 	
-	\item \textbf{Sistema.} \hypertarget{p6}{}Muestra la pantalla \textbf{IU5 Comprobante de pago}.
+	\item \textbf{Sistema.} \hypertarget{p6}{}Muestra la pantalla \textbf{IU6 Compra Exitosa}.
 		
 \end{enumerate}	
 Fin de la trayectoria principal
@@ -367,7 +414,7 @@ Fin de la trayectoria principal
 	\begin{enumerate}
 		\item \textbf{Actor.}  Da click en el checkbox de pago en \textbf{Efectivo}.
 		\item \textbf{Actor.} Da click en continuar. 
-		\item \textbf{Sistema.} regresa al paso \hyperlink{p6}{\textbf{6}} de la trayectoria principal.
+		\item \textbf{Sistema.} Regresa al paso \hyperlink{p6}{\textbf{6}} de la trayectoria principal.
 	\end{enumerate}
 	
 	Fin de la trayectoria alternativa
@@ -375,11 +422,11 @@ Fin de la trayectoria principal
 		%Trayectoria alternativa
 	\item \hypertarget{TAD:CU4}{Trayectoria alternativa D}
 	
-	\noindent \textbf{Condición:} El actor quiere cancelar la compra, por lo que procede a presionar el botón \textbf{cancelar} en la pantalla \textbf{IU4 Carrito de compras}, si el actor presiona el botón \textbf{Carrito} hace la misma acción.
+	\noindent \textbf{Condición:} El actor quiere cancelar la compra, por lo que procede a presionar el botón \textbf{Cancelar} en la pantalla \textbf{IU3 Carrito de Compras}, si el actor presiona el botón \textbf{Carrito} hace la misma acción.
 	
 	\begin{enumerate}
 		\item \textbf{Actor.} Da click en el botón \textbf{Carrito} o el botón \textbf{Menú}.
-		\item \textbf{Sistema.} Muestra la pantalla \textbf{IU3 Carrito de compras}.
+		\item \textbf{Sistema.} Muestra la pantalla \textbf{IU3 Carrito de Compras}.
 	\end{enumerate}
 	
 	Fin de la trayectoria alternativa
@@ -387,11 +434,11 @@ Fin de la trayectoria principal
 			%Trayectoria alternativa
 	\item \hypertarget{TAE:CU4}{Trayectoria alternativa E}
 	
-	\noindent \textbf{Condición:} El actor quiere cambiar un dato de la pantalla \textbf{UI4 Datos de compra}.
+	\noindent \textbf{Condición:} El actor quiere cambiar un dato de la pantalla \textbf{UI4 Datos de Compra}.
 	
 	\begin{enumerate}
-		\item \textbf{Actor.} Da click en el botón \textbf{regresar}.
-		\item \textbf{Sistema.} Muestra la pantalla \textbf{IU3 Carrito de compras}.
+		\item \textbf{Actor.} Da click en el botón \textbf{Regresar}.
+		\item \textbf{Sistema.} Muestra la pantalla \textbf{IU3 Carrito de Compras}.
 	\end{enumerate}
 	
 	Fin de la trayectoria alternativa
@@ -403,7 +450,7 @@ Fin de la trayectoria principal
 	
 	\begin{enumerate}
 		\item \textbf{Actor.} Da click en el botón \textbf{Menú}.
-		\item \textbf{Sistema.} Muestra la pantalla \textbf{IU1 Seleccionar pizza}.
+		\item \textbf{Sistema.} Muestra la pantalla \textbf{IU1 Menú de Pizzas}.
 	\end{enumerate}
 	
 	Fin de la trayectoria alternativa
@@ -415,9 +462,9 @@ Fin de la trayectoria principal
 	
 	\begin{enumerate}
 		\item \textbf{Actor.} Da click en continuar sin haber completado todos los datos obligatorios.
-		\item \textbf{Sistema.} Muestra el mensaje \textbf{MSG Campos obligatorios} en la pantalla.
-		\item \textbf{Actor.} Da click en aceptar al mensaje.
-		\item \textbf{Sistema.} Muestra la pantalla \textbf{IU6 Método de pago}.
+		\item \textbf{Sistema.} Muestra el mensaje \hyperlink{MSG1:CamposObligatorios}{MSG1 Campos Obligatorios Faltantes} en la pantalla.
+		\item \textbf{Actor.} Da click en \textbf{Aceptar} al mensaje.
+		\item \textbf{Sistema.} Muestra la pantalla \textbf{IU5 Método de Pago}.
 	\end{enumerate}
 	
 	Fin de la trayectoria alternativa
@@ -429,11 +476,28 @@ Fin de la trayectoria principal
 	\begin{enumerate}
 		\item \textbf{Actor.} Da click en continuar habiendo escrito algo de manera incorrecta.
 		\\\textbf{Ej.} Escribir un numero en un campo de texto.
-		\item \textbf{Sistema.} Muestra el mensaje \textbf{MSG Textos bien escritos} en la pantalla.
+		\item \textbf{Sistema.} Muestra el mensaje \hyperlink{MSG4:Formato}{MSG4 Formato} en la pantalla.
 		\item \textbf{Actor.} Da click en aceptar al mensaje.
-		\item \textbf{Sistema.} Muestra la pantalla \textbf{IU6 Método de pago}.
+		\item \textbf{Sistema.} Muestra la pantalla \textbf{IU5 Método de pago}.
 	\end{enumerate}
 	
 	Fin de la trayectoria alternativa
 	
 \end{itemize}
+
+	%Puntos de extención
+\noindent \textbf{\\Puntos de extensión}\\
+
+%Punto de extención
+\noindent \textit{Causa de la extensión:} No aplica.\\
+\textit{Región de la trayectoria:} No aplica.\\
+\textit{Extiende a:} No aplica.\\
+
+
+%Puntos de inclusión
+\noindent \textbf{\\Puntos de inclusión}\\
+
+%Punto de inclusión
+\noindent \textit{Causa de la inclusión:} No aplica.\\
+\textit{Región de la trayectoria:} No aplica.\\
+\textit{Incluye a:} No aplica.\\

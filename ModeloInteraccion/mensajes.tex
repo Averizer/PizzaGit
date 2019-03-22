@@ -21,7 +21,7 @@
 
 			\item \textit{Ejemplo:} Suponga que el campo \textbf{Nombre} es obligatorio y se omite en el ingreso de información. El sistema deberá mostrar debajo de la petición de dicho campo el mensaje: \textbf{El campo Nombre es obligatorio}.
 
-			\item \textit{Referenciado por:} \hyperlink{CU4}{CU4 Confirmar datos de compra}.
+			\item \textit{Referenciado por:} \hyperlink{CU1}{CU1 Seleccionar Pizza}, \hyperlink{CU3}{CU3 Realizar la Compra} y \hyperlink{CU4}{CU4 Seleccionar Método de Pago}.
 
 		\end{itemize}
 	
@@ -42,7 +42,7 @@
 	
 	\item \textit{Ejemplo:} Suponga que el cliente agregó una \textbf{Pizza} al carrito de compras. El sistema deberá mostrar mediante una ventana modal el siguiente mensaje: \textbf{Pizza agregada correctamente}.
 	
-	\item \textit{Referenciado por:} \hyperlink{CU3}{CU3 Realizar la compra}
+	\item \textit{Referenciado por:} \hyperlink{CU1}{CU1 Seleccionar Pizza}.
 	
 \end{itemize}
 
@@ -64,5 +64,26 @@
 	\item \textit{Ejemplo:} Suponga que el cliente desea eliminar una \textbf{Pizza} dexl carrito de compras. El sistema deberá mostrar mediante una ventana modal el siguiente mensaje: \textbf{¿Seguro deseas quitar la pizza?}.
 	
 	\item \textit{Referenciado por:} \hyperlink{CU2}{CU2 Ver Carrito de Compras}
+	
+\end{itemize}
+
+\hypertarget{MSG4:Formato}{}
+\subsection{MSG4 Formato}
+
+\begin{itemize}
+	
+	\item \textit{Tipo:} Error.
+	
+	\item\textit{Ubicación:}  En el momento en el que el formato de algún dato sea incorrecto.
+	
+	\item \textit{Objetivo:} Notificar al cliente de que el formato que ingresó no es correcto.
+	
+	\item \textit{Redacción:} El campo \textbf{CAMPO} tiene un formato que no es válido.
+	
+	\item \textit{Parámetros:} \textbf{CAMPO} es el nombre del campo que tiene un formato erróneo.
+	
+	\item \textit{Ejemplo:} Suponga que el cliente ingresó un caracter especial en el campo \textbf{Teléfono}. El sistema deberá mostrar debajo de la petición de dicho campo el mensaje: \textbf{El campo Teléfono tiene un formato inválido}.
+	
+	\item \textit{Referenciado por:} \hyperlink{CU4}{CU4 Seleccionar Método de Pago}.
 	
 \end{itemize}
