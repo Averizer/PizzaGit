@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.9)  21 MAR 2019 21:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.9)  21 MAR 2019 22:35
 entering extended mode
 **./Tarea4-DocumentacionAnalisis-Analisis-IS-Grupo-ApellidosNombre.tex
 (Tarea4-DocumentacionAnalisis-Analisis-IS-Grupo-ApellidosNombre.tex
@@ -656,7 +656,7 @@ Package pdftex.def Info: imagenes/iconografia/ColorMenu.png  used on input line
  24.
 (pdftex.def)             Requested size: 123.46092pt x 67.75294pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--25
+Underfull \hbox (badness 10000) in paragraph at lines 22--26
 
  []
 
@@ -667,10 +667,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--25
 File: imagenes/iconografia/ColorBoton.png Graphic file (type png)
 <use imagenes/iconografia/ColorBoton.png>
 Package pdftex.def Info: imagenes/iconografia/ColorBoton.png  used on input lin
-e 31.
+e 32.
 (pdftex.def)             Requested size: 128.7306pt x 69.25856pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--32
+Underfull \hbox (badness 10000) in paragraph at lines 30--34
 
  []
 
@@ -678,20 +678,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--32
 File: imagenes/iconografia/ColorColumnas.png Graphic file (type png)
 <use imagenes/iconografia/ColorColumnas.png>
 Package pdftex.def Info: imagenes/iconografia/ColorColumnas.png  used on input 
-line 38.
+line 40.
 (pdftex.def)             Requested size: 127.9778pt x 67.75294pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--39
+Underfull \hbox (badness 10000) in paragraph at lines 38--42
 
  []
 
 File: imagenes/iconografia/ColorMenu.png Graphic file (type png)
 <use imagenes/iconografia/ColorMenu.png>
 Package pdftex.def Info: imagenes/iconografia/ColorMenu.png  used on input line
- 45.
+ 48.
 (pdftex.def)             Requested size: 123.46092pt x 67.75294pt.
 ) (ModeloInteraccion/mensajes.tex
-Underfull \hbox (badness 10000) in paragraph at lines 43--2
+Underfull \hbox (badness 10000) in paragraph at lines 46--2
 
  []
 
@@ -699,11 +699,11 @@ LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 [23 <./imagenes/iconografia/ColorMenu.png> <./imagenes/iconografia/ColorBoton.p
 ng> <./imagenes/iconografia/ColorColumnas.png>]
-LaTeX Info: Redefining \. on input line 4.
-LaTeX Info: Redefining \% on input line 4.
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
  [24]
-LaTeX Info: Redefining \. on input line 56.
-LaTeX Info: Redefining \% on input line 56.
+LaTeX Info: Redefining \. on input line 86.
+LaTeX Info: Redefining \% on input line 86.
  [25]))
 (ModeloInteraccion/RegistroSolicitantes/InteraccionRegistroSolicitantes.tex
 LaTeX Info: Redefining \. on input line 3.
@@ -1227,7 +1227,7 @@ type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/maryf/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/maryf/AppData/Local/
 Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 Output written on Tarea4-DocumentacionAnalisis-Analisis-IS-Grupo-ApellidosNombr
-e.pdf (44 pages, 910901 bytes).
+e.pdf (44 pages, 911410 bytes).
 PDF statistics:
  830 PDF objects out of 1000 (max. 8388607)
  223 named destinations out of 1000 (max. 500000)

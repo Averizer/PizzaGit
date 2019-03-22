@@ -27,11 +27,11 @@
 \contentsline {subsection}{\numberline {5.1.3}Botones de Confirmaci\IeC {\'o}n}{23}{subsection.5.1.3}% 
 \contentsline {subsection}{\numberline {5.1.4}Columnas}{23}{subsection.5.1.4}% 
 \contentsline {subsection}{\numberline {5.1.5}Footer}{23}{subsection.5.1.5}% 
-\contentsline {section}{\numberline {5.2}Mensajes}{25}{section.5.2}% 
-\contentsline {subsection}{\numberline {5.2.1}MSG1 Campos Obligatorios Faltantes}{25}{subsection.5.2.1}% 
-\contentsline {subsection}{\numberline {5.2.2}MSG2 Pizza Agregada Exitosamente}{25}{subsection.5.2.2}% 
-\contentsline {subsection}{\numberline {5.2.3}MSG3 Advertencia}{26}{subsection.5.2.3}% 
-\contentsline {subsection}{\numberline {5.2.4}MSG4 Formato}{26}{subsection.5.2.4}% 
+\contentsline {section}{\numberline {5.2}Mensajes}{24}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}MSG1 Campos Obligatorios Faltantes}{24}{subsection.5.2.1}% 
+\contentsline {subsection}{\numberline {5.2.2}MSG2 Pizza Agregada Exitosamente}{24}{subsection.5.2.2}% 
+\contentsline {subsection}{\numberline {5.2.3}MSG3 Advertencia}{25}{subsection.5.2.3}% 
+\contentsline {subsection}{\numberline {5.2.4}MSG4 Formato}{25}{subsection.5.2.4}% 
 \contentsline {chapter}{\numberline {6}Modelo de interacci\IeC {\'o}n: Pizza Collaboration}{27}{chapter.6}% 
 \contentsline {section}{\numberline {6.1}IU1 Men\IeC {\'u} de Pizzas}{28}{section.6.1}% 
 \contentsline {section}{\numberline {6.2}IU2 Personaliza Pizza}{29}{section.6.2}% 
