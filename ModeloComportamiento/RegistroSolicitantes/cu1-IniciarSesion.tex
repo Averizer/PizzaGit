@@ -18,7 +18,7 @@
 			\item \textit{Precondiciones:} Que el \hyperlink{A:Cliente}{Cliente} tenga acceso a internet. 
 			\item \textit{Postcondiciones:} El \hyperlink{A:Cliente}{Cliente} podrá ingresar al sistema para realizar las actividades que su rol le permite.
 			\item \textit{Ciclos de vida:} No aplica.
-			\item \textit{Reglas de negocio:} ??
+			\item \textit{Reglas de negocio:} \hyperlink{RN:S1:InfoRequerida}{RN-S1 Información requerida}.
 			\item \textit{Mensajes:} MSG1 Campos Obligatorios Faltantes y MSG2 Pizza Agregada Exitosamente.
 			\item \textit{Viene de:} No aplica.
 
@@ -87,7 +87,7 @@
 			\begin{enumerate}
 				\item \textbf{Actor.} Selecciona el botón \textbf{Agregar al carrito} sin seleccionar ninguna opción. 
 				
-				\item \textbf{Sistema.} Verifica la regla de negocio \textbf{RN:S2:SelecciónRequerida}.
+				\item \textbf{Sistema.} Verifica la regla de negocio \hyperlink{RN:S1:InfoRequerida}{\textbf{RN-S1 Información requerida}}.
 				
 				\item \textbf{Sistema.} Muestra en pantalla el mensaje \textbf{MSG1 Campos Obligatorios Faltantes} descrito en \hyperlink{MSG1:CamposObligatorios}{\textbf{MSG1 Campos Obligatorios Faltantes}}. 
 				
@@ -137,7 +137,7 @@ Para que el cliente pueda acceder al módulo de ver carrito de compras, deberá 
 	\item \textit{Precondiciones:} Que el \hyperlink{A:Cliente}{Cliente} tenga acceso a internet. 
 	\item \textit{Postcondiciones:} El \hyperlink{A:Cliente}{Cliente} podrá gestionar sus carrito de compras.
 	\item \textit{Ciclos de vida:} No aplica. 
-	\item \textit{Reglas de negocio:} ??
+	\item \textit{Reglas de negocio:} \hyperlink{RN:S3:ProcederCompra}{RN-S3 Proceder a la compra}, \hyperlink{RN:N3:Maximo}{RN-N3 Máximo de pizzas}.
 	\item \textit{Mensajes:} MSG3 Advertencia.
 	\item \textit{Viene de:} No aplica.
 	
@@ -152,7 +152,7 @@ Para que el cliente pueda acceder al módulo de ver carrito de compras, deberá 
 	
 	\item \hypertarget{CU2:TP:P4}{\textbf{Sistema.}} Muestra la pantalla \textbf{IU3 Carrito de Compras} descrita en \hyperlink{IU3}{IU3 Carrito de Compras}.
 	
-	\item \textbf{Actor.} El actor da click en el botón  \textbf{Proceder con la compra}.
+	\item \textbf{Actor.} El actor da click en el botón  \textbf{Proceder con la compra} verificando las regla de negocio \hyperlink{RN:S3:ProcederCompra}{\textbf{RN-S3 Proceder a la compra}} y \hyperlink{RN:N3:Maximo}{\textbf{RN-N3 Máximo de pizzas}}.
 	\\ \hyperlink{CU2:TAA}{Trayectoria alternativa A}.
 	\\ \hyperlink{CU2:TAB}{Trayectoria alternativa B}. 
 	\\ \hyperlink{CU2:TAC}{Trayectoria alternativa C}. 
@@ -244,7 +244,7 @@ El cliente decidió proseguir con la compra por lo que ahora debe proporcionar s
 	\item \textit{Precondiciones:} Que el \hyperlink{A:Cliente}{Cliente} haya agregado al carrito de compras al menos una pizza.
 	\item \textit{Postcondiciones:} El \hyperlink{A:Cliente}{Cliente} tendrá que seleccionar una forma de pago para terminar la compra.
 	\item \textit{Ciclos de vida:} No aplica.
-	\item \textit{Reglas de negocio:} ??
+	\item \textit{Reglas de negocio:} \hyperlink{RN:S1:InfoRequerida}{RN-S1 Información requerida}, \hyperlink{RN:S2:InfoValida}{RN-S2 Información válida}, \hyperlink{RN:N2:Cancelacion}{RN-N2 Cancelación de compra}.
 	\item \textit{Mensajes:} MSG1 Campos Obligatorios Faltantes.
 	\item \textit{Viene de:} No aplica.
 	
@@ -254,14 +254,14 @@ El cliente decidió proseguir con la compra por lo que ahora debe proporcionar s
 \noindent \textbf{Trayectoria principal}
 
 \begin{enumerate}
-	\item {\textbf{Actor.}} El actor ingresa sus datos personales, pero en cualquier momento puede cancelar el proceso de compra. \hyperlink{CU3:TAA}{Trayectoria alternativa A}.
+	\item {\textbf{Actor.}} El actor ingresa sus datos personales, pero en cualquier momento puede cancelar el proceso de compra (\hyperlink{RN:N2:Cancelacion}\textbf{{RN-N2 Cancelación de compra}}). \hyperlink{CU3:TAA}{Trayectoria alternativa A}.
 	\\ El actor también puede regresar a agregar más pizza. \hyperlink{CU3:TAA}{Trayectoria alternativa B}.
 	\\
 	
 	\item {\textbf{Actor.}} Da click en \textbf{Continuar}.
 	
-	\item \textbf{Sistema.} Verifica que se cumpla la regla de negocio \textbf{RN Campos obligatorios} descrita en el apartado de \hyperlink{RN}{\textbf{Reglas de negocio}}, de haber un problema pasa a la \hyperlink{CU3:TAC}{Trayectoria alternativa C}.
-	\\Después revisa que se cumpla la regla de negocio \textbf{RN Textos bien escritos}. \hyperlink{CU3:TAD}{Trayectoria alternativa D}
+	\item \textbf{Sistema.} Verifica que se cumpla la regla de negocio \hyperlink{RN:S1:InfoRequerida}{\textbf{RN-S1 Información requerida}}, de haber un problema pasa a la \hyperlink{CU3:TAC}{Trayectoria alternativa C}.
+	\\Después revisa que se cumpla la regla de negocio \hyperlink{RN:S2:InfoRequerida}{\textbf{RN-S2 Información válida}}. \hyperlink{CU3:TAD}{Trayectoria alternativa D}
 	\\Si no hay problemas continua con la trayectoria principal.
 	
 	\item \hypertarget{CU3:TP:P4}{\textbf{Sistema.}} Incluye el caso de uso \textbf{CU4 Seleccionar Método de Pago}.
@@ -331,7 +331,7 @@ Fin de la trayectoria principal
 \textit{Incluye a:} \textbf{CU4 Seleccionar Método de Pago}.\\
 
 \hypertarget{CU4}{}
-\section{CU4 Seleccionar Método de Pago}
+\subsection{CU4 Seleccionar Método de Pago}
 
 %Resumen
 \noindent \textbf{Resumen}\\
@@ -347,7 +347,7 @@ El cliente quiere finalizar la compra por lo que debe seleccionar un método de 
 	\item \textit{Precondiciones:} Que el \hyperlink{A:Cliente}{Cliente} haya registrado exitosamente los datos personales.
 	\item \textit{Postcondiciones:} El \hyperlink{A:Cliente}{Cliente} obtendrá un comprobante de compra con el cual puede recibir su pizza.
 	\item \textit{Ciclos de vida:} No aplica.
-	\item \textit{Reglas de negocio:} ??
+	\item \textit{Reglas de negocio:} \hyperlink{RN:S1:InfoRequerida}{RN-S1 Información requerida} y \hyperlink{RN:S2:InfoValida}{RN-S2 Información válida}, \hyperlink{RN:N2:Cancelacion}{RN-N2 Cancelación de compra}.
 	\item \textit{Mensajes:} MSG1 Campos Obligatorios Faltantes y MSG4 Formato.
 	\item \textit{Viene de:} \textbf{CU3 Realizar la Compra}.
 	
@@ -361,7 +361,7 @@ El cliente quiere finalizar la compra por lo que debe seleccionar un método de 
 	\\ \textbf{Tarjeta}. \hyperlink{TAA:CU4}{Trayectoria alternativa A.} 
 	\\ \textbf{Paypal}. \hyperlink{TAB:CU4}{Trayectoria alternativa B.}
 	\\ \textbf{Efectivo}. \hyperlink{TAC:CU4}{Trayectoria alternativa C.}
-	\\ En cualquier momento puede cancelar el proceso de compra. \hyperlink{TAD:CU3}{Trayectoria alternativa D}.
+	\\ En cualquier momento puede cancelar el proceso de compra (\hyperlink{RN:N2:Cancelacion}{\textbf{RN-N2 Cancelación de compra}}). \hyperlink{TAD:CU3}{Trayectoria alternativa D}.
 	\\ En cualquier momento puede regresar a cambiar un dato. \hyperlink{TAE:CU3}{Trayectoria alternativa E}.
 	\\ El actor también puede regresar a agregar más pizza. \hyperlink{TAF:CU3}{Trayectoria alternativa F}.
 
@@ -384,8 +384,8 @@ Fin de la trayectoria principal
 	\begin{enumerate}
 		\item \textbf{Actor.} Da click en el checkbox de pago con \textbf{Tarjeta}.
 		\item \textbf{Actor.} Da click en el botón \textbf{Continuar}.
-		\item \textbf{Sistema.} Verifica que se cumpla la regla de negocio \textbf{RN Campos obligatorios} descrita en el apartado de \hyperlink{RN}{\textbf{Reglas de negocio}}, de haber un problema pasa a la \hyperlink{TAC:CU3}{Trayectoria alternativa G}.
-		\\Después revisa que se cumpla la regla de negocio \textbf{RN Textos bien escritos}. \hyperlink{TAD:CU3}{Trayectoria alternativa H}
+		\item \textbf{Sistema.} Verifica que se cumpla la regla de negocio \hyperlink{RN:S1:InfoRequerida}{\textbf{RN-S1 Información requerida}}, de haber un problema pasa a la \hyperlink{TAC:CU3}{Trayectoria alternativa G}.
+		\\Después revisa que se cumpla la regla de negocio \hyperlink{RN:S2:InfoValida}{RN-S2 Información válida}. \hyperlink{TAD:CU3}{Trayectoria alternativa H}
 		\\Si no hay problemas continua con la trayectoria alternativa.
 		\item \textbf{Sistema.} Regresa al paso \hyperlink{p5}{\textbf{5}} de la trayectoria principal.
 		

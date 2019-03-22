@@ -1,6 +1,6 @@
 %%%% Catálogo de reglas de negocio del sistema%%%%
 
-
+\
 \section{Reglas de negocio del sistema}
 
 	%Regla del sistema
@@ -13,9 +13,84 @@
 
 			\item \textit{Descripción:} Los campos de entrada que son marcados como requeridos con el caracter \textbf{*} antes del inicio del nombre de dichos campos, no se deben omitir.
 
-			\item \textit{Ejemplo:} Si el campo de entrada \textbf{Usuario} es obligatorio, debe aparecer marcado como: \textbf{* Usuario}, lo cual indica que no puede ser omitido como dato de entrada.
+			\item \textit{Ejemplo:} Si el campo de entrada \textbf{Nombre} es obligatorio, debe aparecer marcado como: \textbf{* Usuario}, lo cual indica que no puede ser omitido como dato de entrada.
 
-			\item \textit{Referenciado por:} \hyperlink{CU2.1}{CU2.1 Ingresar datos del cliente}
+			\item \textit{Referenciado por:} \hyperlink{CU1}{CU1 Seleccionar Pizza}, \hyperlink{CU3}{Realizar Compra}, \hyperlink{CU4}{CU4 Seleccionar Método de pago}.
 
 		\end{itemize}
+	
+	\hypertarget{RN:S2:InfoValida}{}
+	\subsection{RN-S2 Información válida}
+	
+		\begin{itemize}
+		
+		\item \textit{Tipo:} Restricción
+		
+		\item \textit{Descripción:} Los campos de entrada deben ser llenado exclusivamente con caracteres relacionado con lo solicitado.
+		
+		\item \textit{Ejemplo:} El campo de entrada \textbf{Teléfono} es destinado a incluir únicamente números, de lo contrario el sistema debe avisar que la información es incorrecta.
+		
+		\item \textit{Referenciado por:} \hyperlink{CU3}{Realizar Compra}, \hyperlink{CU4}{CU4 Seleccionar Método de pago}.
+		
+		
+	\end{itemize}
 
+	\hypertarget{RN:S3:ProcederCompra}{}
+\subsection{RN-S3 Proceder a la compra}
+
+\begin{itemize}
+	
+	\item \textit{Tipo:} Derivación
+	
+	\item \textit{Descripción:} El botón \textbf{Proceder a la compra} de la pantalla \hyperlink{IU3}{\textbf{IU3 Carrito de compra}} debe estar habilitado sólo si se tiene al menos un artículo en el carrito de compra.
+	
+	\item \textit{Ejemplo:} El cliente presiona el botón de \textbf{carrito} sin haber seleccionado al menos una pizza, por lo tanto no puede proceder a la compra.
+	
+	\item \textit{Referenciado por:} \hyperlink{CU2}{CU2 Ver Carrito de Compras}
+	
+\end{itemize}
+	
+	\hypertarget{RN:S4:TipoEntrega}{}
+	\subsection{RN-S4 Tipo de entrega}
+	
+	\begin{itemize}
+		
+		\item \textit{Tipo:} Derivación
+		
+		\item \textit{Descripción:} El cliente quiere recibir la pizza en su casa por lo que selecciona la opción de \textbf{Tipo de entrega: Domicilio}, entonces los campos para entrega de domicilio se activarán.
+		
+		\item \textit{Ejemplo:} El cliente quiere recoger su pizza en la tienda, entonces los campos para introducir el domicilio no se mostraran en pantalla.
+		
+		\item \textit{Referenciado por:} No aplica.
+		
+	\end{itemize}
+	
+	\hypertarget{RN:S5:PDF}{}
+\subsection{RN-S5 PDF}
+
+\begin{itemize}
+	
+	\item \textit{Tipo:} Respuesta
+	
+	\item \textit{Descripción:} El cliente terminó su compra habiendo ya realizado su pago, por lo que se genera un PDF como confirmación de la orden.
+	
+	\item \textit{Ejemplo:} El cliente compra 1 pizza y termina de pagar, la siguiente pantalla muestra se mostrara un PDF para comprobar que la compra se realizó con éxito.
+	
+	\item \textit{Referenciado por:} No aplica.
+	
+\end{itemize}
+
+	\hypertarget{RN:S6:BD}{}
+\subsection{RN-S6 Base de datos}
+
+\begin{itemize}
+	
+	\item \textit{Tipo:} Derivación 
+	
+	\item \textit{Descripción:} El cliente terminó su compra habiendo ya realizado su pago, por lo que se genera una consulta en la Base de datos donde se guarda la información de la compra.
+	
+	\item \textit{Ejemplo:} El cliente compra 1 pizza y termina de pagar, La base de datos debe guardar la información de la compra.
+	
+	\item \textit{Referenciado por:} No aplica.
+	
+\end{itemize}

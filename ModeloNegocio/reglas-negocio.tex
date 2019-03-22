@@ -4,34 +4,66 @@
 \section{Reglas de negocio del negocio}
 
 	%Regla del negocio
-	\hypertarget{RN:N1:FechaValidaRS}{}
-	\subsection{RN-N1 Fecha válida para registro de solicitantes}
+	\hypertarget{RN:N1:ID}{}
+	\subsection{RN-N1 Identificador de compra}
 
 		\begin{itemize}
 
 			\item \textit{Tipo:} Restricción
 
-			\item \textit{Descripción:} Un solicitante no podrá obtener una cuenta de usuario en el sistema, si la fecha en que lo solicita no se encuentra dentro del periodo de registro de solicitantes, es decir, debe de cumplirse que:\\
+			\item \textit{Descripción:} Cada orden de compra tiene que tener un ID único.
 
-			\begin{center}
-				$F_{IPR} \leq F_{SR} \leq F_{FPR} $
-			\end{center}
+			\item \textit{Ejemplo:} Suponga que 2 usuarios completan al "mismo tiempo" su orden, el usuario 1 tendrá un identificador de compra diferente al usuario 2 aunque hayan realizado una compra al "mismo tiempo".
 
-			Donde:
-
-			\begin{itemize}
-
-				\item $F_{IPR}$: Fecha de Inicio de Periodo de Registro de solicitantes en el sistema
-
-				\item $F_{SR}$: Fecha de Solicitud de Registro del solicitante
-
-				\item $F_{FPR}$: Fecha de Fin de Periodo de Registro de solicitantes en el sistema
-
-			\end{itemize} 
-
-			\item \textit{Ejemplo:} Suponga que en el sistema $F_{IPR} =$ 12/marzo/2019 y $F_{FPR} =$ 25/marzo/2019. Si el solicitante intenta obtener una cuenta de usuario con $F_{S R}$ = 18/marzo/2019, el sistema debe permitirle obtener su cuenta de usuario. Si el solicitante intenta obtener una cuenta de usuario con $F_{SR}$ = 26/marzo/2019, el sistema no debe permitirle obtener su cuenta de usuario
-
-			\item \textit{Referenciado por:} \hyperlink{CU1}{CU1 Iniciar sesión}
+			\item \textit{Referenciado por:} No aplica.
 
 		\end{itemize}
+
+	%Regla del negocio
+\hypertarget{RN:N2:Cancelacion}{}
+\subsection{RN-N2 Cancelación de compra}
+
+\begin{itemize}
+	
+	\item \textit{Tipo:} Restricción
+	
+	\item \textit{Descripción:} La compra se puede cancelar en cualquier momento se puede antes de que esta se complete
+	
+	\item \textit{Ejemplo:} Un cliente quiere comprar un a pizza, por lo que selecciona una de su agrado, y procede a registrar sus datos, al momento de pagar se da cuenta que no tiene dinero, por lo que procede a cancelar su compra.
+	
+	\item \textit{Referenciado por:} \hyperlink{CU3}{CU3 Realizar la compra}, \hyperlink{CU4}{CU4 Seleccionar Método de Pago}.
+	
+\end{itemize}
+
+	%Regla del negocio
+\hypertarget{RN:N3:Fecha}{}
+\subsection{RN-N3 Fecha de control}
+
+\begin{itemize}
+	
+	\item \textit{Tipo:} Aserción estructural
+	
+	\item \textit{Descripción:} Se requiere tener una fecha de las compras para llevar un control, para la generación de futuros reportes de compra.
+	
+	\item \textit{Ejemplo:} El dueño de la pizzeria quiere realizar el reporte de las pizzas vendidas durante la semana, por lo que ayudándose de las fechas en las compras puede filtrar el resultado en la base de datos.
+	
+	\item \textit{Referenciado por:} No aplica.
+	
+\end{itemize}
+
+	%Regla del negocio
+\hypertarget{RN:N4:Maximo}{}
+\subsection{RN-N4 Máximo de pizzas}
+
+\begin{itemize}
+	
+	\item \textit{Tipo:} Restricción
+	
+	\item \textit{Descripción:} El máximo de pizzas por orden es de 10.
+	
+	\item \textit{Ejemplo:} Suponga que cliente quiere ordenar 11 pizzas, el sistemas no dejará proceder con la compra ya que el numero excede el máximo permitido por orden. 
+	
+	\item \textit{Referenciado por:} \hyperlink{CU2}{CU2 Ver Carrito de Compras}.
+	
+\end{itemize}
 
